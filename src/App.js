@@ -33,7 +33,7 @@ function App() {
         ibm: {
           date: 'June 2025 – September 2025',
           title: 'CSM Solutions Architect Intern - IBM',
-          location: 'London, UK | Technology Group',
+          location: 'London, UK ',
           items: [
             'Built a sustainable data integration asset leveraging Apache Iceberg tables and Watsonx.ai, reducing evaluation time by 18% and LLM hallucination risk by 30%',
             'Designed and deployed a Multimodal RAG AI Agent that autonomously generates executive summaries, saving 3-4 hours weekly in internal meetings',
