@@ -178,13 +178,17 @@ body {
 }
 
 .hero-left h1 {
-  font-size: 8rem;
+  font-size: 10rem;
   font-weight: 800;
   line-height: 1;
   margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
   word-break: break-word;
+}
+
+.name-line {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .name-part:first-child {
