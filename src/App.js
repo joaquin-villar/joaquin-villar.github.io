@@ -21,7 +21,7 @@ function App() {
       },
       hero: {
         title: 'Data Science Student | AI & Cloud Specialist',
-        intro: 'Graduating Data Science student with hands-on experience in AI, Cloud and Data Services. Passionate about the application of Digital Wwins for Sustainable Development.',
+        intro: 'Graduating Data Science student with hands-on experience in AI, Cloud and Data Services. Passionate about the application of Digital Twins for Sustainable Development.',
       },
       about: {
         title: 'About Me',
