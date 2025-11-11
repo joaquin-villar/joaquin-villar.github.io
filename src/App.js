@@ -21,43 +21,77 @@ function App() {
       },
       hero: {
         title: 'Data Science Student | AI & Cloud Specialist',
-        intro: 'Graduating Data Science student with hands-on experience in AI, Cloud and Data Services. Passionate about the application of digital twins for sustainable development.',
+        intro: 'Graduating Data Science student with hands-on experience in AI, Cloud and Data Services. Passionate about the application of Digital Wwins for Sustainable Development.',
       },
       about: {
         title: 'About Me',
-        text: "I'm a final-year Data Science undergraduate at The University of Sheffield with a completed internship at IBM. As a bilingual, analytical and creative problem solver, I have years of experience delivering data-driven solutions. I'm passionate about digital transformation through AI/MLOps and asset-based solutions, seeking opportunities to drive change and deliver value through data-driven, strategic and client-facing roles."
+        text: "I'm a final-year Data Science undergraduate at The University of Sheffield with a completed internship at IBM. As a bilingual, analytical and creative problem solver, I have years of experience delivering data-driven solutions. I'm passionate about digital transformation through AI/MLOps and sustainable solutions, seeking opportunities to drive change and deliver value through strategic and client-facing roles."
       },
       experience: {
         title: 'Professional Experience',
         ibm: {
-          date: 'June 2025 – September 2025',
-          title: 'CSM Solutions Architect Intern - IBM',
-          location: 'London, UK | Technology Group',
-          items: [
-            'Built a sustainable data integration asset leveraging Apache Iceberg tables and Watsonx.ai, reducing evaluation time by 18% and LLM hallucination risk by 30%',
-            'Designed and deployed a Multimodal RAG AI Agent that autonomously generates executive summaries, saving 3-4 hours weekly in internal meetings',
-            'Delivered multiple client demos across AI & Analytics Consulting and Technical Sales',
-            'Supported asset-based consulting engagement with a leading financial services provider'
+          roles: [
+            {
+              date: 'June 2025 – September 2025',
+              title: 'CSM Solutions Architect Summer Intern - IBM',
+              location: 'London, UK',
+              items: [
+                'Built a sustainable data integration asset leveraging Apache Iceberg tables and Watsonx.ai to enrich and query the metadata of unstructured financial statements within IBM Cloud. This reduced evaluation time in the mortgage risk assessment process by 18% and LLM hallucination risk by 30% for a leading financial services client. ',
+                'Designed and deployed a Multimodal RAG AI Agent to query the CSM business unit’s deployments dashboard. The agent autonomously extracts key insights, generates context aware executive summaries and distributes them to the respective stakeholders via email, saving 3-4 hours every week in internal debrief meetings.',
+                'Delivered multiple product demos across AI & Analytics Consulting and Technical Sales, showcasing deployed use cases and IBM’s go-to-market platforms through effective use of the client engagement model and storytelling',
+                'Supported asset-based consulting engagement with the conversational banking unit of a leading financial services provider, , gaining exposure to the design and deployment of AI Assistant user journeys and the development of an Agentic AI strategy.' 
+              ]
+            }
           ]
         },
         primax: {
-          date: 'June 2024 – August 2024',
-          title: 'Loyalty CRM & Digital Sales Intern - Corporación Primax S.A.',
-          location: 'Lima, Perú',
-          items: [
-            'Quantified market opportunity using RFM clustering on 5+ million records',
-            'Redesigned margin matrices to better reflect profitability across consumer groups',
-            'Designed managerial dashboard for Colombia division expansion',
-            'Developed automated One-Pager alerts for KPI monitoring'
+          roles: [
+            {
+              date: 'June 2024 – August 2024',
+              title: 'Loyalty CRM & Digital Sales Summer Intern - Corporación Primax S.A.',
+              location: 'Lima, Perú',
+              items: [
+                'Quantified market opportunity using RFM clustering on 5+ million records',
+                'Redesigned margin matrices to better reflect profitability across consumer groups',
+                'Designed managerial dashboard for Colombia division expansion',
+                'Developed automated One-Pager alerts for KPI monitoring'
+              ]
+            }
           ]
         },
         aviva: {
-          date: 'June 2023 – September 2023',
-          title: 'Data Management Intern - Clínica Aviva Grupo Intercorp',
-          location: 'Lima, Perú',
-          items: [
-            'Optimised pharmacy procurement process by integrating legacy ERP with RPA prototypes',
-            'Reduced decision-making contact hours by 37% between finance and procurement teams'
+          roles: [
+            {
+              date: 'June 2023 – September 2023',
+              title: 'Data Management Intern - Clínica Aviva / Grupo Intercorp',
+              location: 'Lima, Perú',
+              items: [
+                'Optimised pharmacy procurement process by integrating legacy ERP with RPA prototypes',
+                'Reduced decision-making contact hours by 37% between finance and procurement teams'
+              ]
+            }
+          ]
+        },
+        pacifico: {
+          roles: [
+            {
+              date: 'September 2022 – December 2022',
+              title: 'Data Analytics Off-Cycle Intern - Pacifico Seguros',
+              location: 'Lima, Perú',
+              items: [
+                'Contributed to the company’s digital transformation...'
+              ]
+            },
+            {
+              date: 'June 2022 – September 2022',
+              title: 'Process Innovation Summer Intern - Pacifico Seguros',
+              location: 'Lima, Perú',
+              items: [
+                'Built a sustainable data integration asset leveraging Apache Iceberg tables...',
+                'Designed and deployed a Multimodal RAG AI Agent...',
+                'Delivered multiple client demos...'
+              ]
+            }
           ]
         }
       },
@@ -67,8 +101,8 @@ function App() {
           title: 'Personal Portfolio Website',
           tech: 'React, JavaScript, CSS',
           items: [
-            'Built modern, responsive portfolio showcasing professional experience and projects',
-            'Implemented smooth animations and interactive UI components',
+            'Built modern, responsive portfolio showcasing professional experience, projects and certifications',
+            'Implemented animations and interactive UI components',
             'Deployed using GitHub Pages with automated CI/CD pipeline'
           ]
         },
@@ -102,40 +136,56 @@ function App() {
       },
       leadership: {
         title: 'Leadership & Volunteering',
-        dssEducation: {
-          title: 'Data Science Society - Education Officer',
-          period: 'University of Sheffield | September 2025 – Present',
-          items: [
-            'Led pro bono data projects with 2 local organisations',
-            'Developed BSA compliance agent for construction consultancy',
-            'Created outreach optimisation strategy for charity supporting modern slavery survivors'
-          ]
-        },
-        dssPresident: {
-          title: 'Data Science Society - Founder & President',
-          period: 'University of Sheffield | February 2024 – May 2025',
-          items: [
-            'Founded and chaired the society, driving membership growth through targeted outreach',
-            'Managed student-financed budget and secured additional funding',
-            'Delivered best university experience for 120+ students'
+        dss: {
+          roles: [
+            {
+              date: 'September 2025 – Present',
+              title: 'Data Science Society - Education Officer',
+              location: 'University of Sheffield',
+              items: [
+                'Led pro bono data projects with 2 local organisations',
+                'Developed BSA compliance agent for construction consultancy',
+                'Created outreach optimisation strategy for charity supporting modern slavery survivors'
+              ]
+            },
+            {
+              date: 'February 2024 – May 2025',
+              title: 'Data Science Society - Founder & President',
+              location: 'University of Sheffield',
+              items: [
+                'Founded and chaired the society, driving membership growth through targeted outreach',
+                'Managed student-financed budget and secured additional funding',
+                'Delivered best university experience for 120+ students'
+              ]
+            }
           ]
         },
         genAI: {
-          title: 'GenAI Society - Summer Internship Event Lead',
-          period: 'IBM | July 2025 – September 2025',
-          items: [
-            'Organised \'AI in Media\' half-day event for 50+ Early Professionals',
-            'Featured SMEs and Managing Director as guest speakers',
-            'First event of its kind in IBM UKI'
+          roles: [
+            {
+              date: 'July 2025 – September 2025',
+              title: 'GenAI Society - Summer Internship Event Lead',
+              location: 'IBM',
+              items: [
+                'Organised \'AI in Media\' half-day event for 50+ Early Professionals',
+                'Featured SMEs and Managing Director as guest speakers',
+                'First event of its kind in IBM UKI'
+              ]
+            }
           ]
         },
         siemens: {
-          title: 'Digital Transformation Advisor',
-          period: 'Siemens Digital Innovation Zone | October 2024 – May 2025',
-          items: [
-            'Showcased potential of live stream data analytics and CAD software',
-            'Demonstrated Digital Twin of the Diamond Pilot Plant',
-            'Only one of its kind in any UK university'
+          roles: [
+            {
+              date: 'October 2024 – May 2025',
+              title: 'Digital Transformation Advisor',
+              location: 'Siemens Digital Innovation Zone',
+              items: [
+                'Showcased potential of live stream data analytics and CAD software',
+                'Demonstrated Digital Twin of the Diamond Pilot Plant',
+                'Only one of its kind in any UK university'
+              ]
+            }
           ]
         }
       },
@@ -154,7 +204,7 @@ function App() {
         downloadText: 'Download Resume/CV'
       },
       languages: {
-        title: 'Languages',
+        title: 'Languages I Speak',
         spanish: 'Spanish',
         english: 'English',
         italian: 'Italian',
@@ -184,34 +234,68 @@ function App() {
       experience: {
         title: 'Experiencia Profesional',
         ibm: {
-          date: 'Junio 2025 – Septiembre 2025',
-          title: 'Pasante de Arquitecto de Soluciones CSM - IBM',
-          location: 'Londres, Reino Unido | Grupo de Tecnología',
-          items: [
-            'Construí un activo de integración de datos sostenible aprovechando tablas Apache Iceberg y Watsonx.ai, reduciendo el tiempo de evaluación en un 18% y el riesgo de alucinación de LLM en un 30%',
-            'Diseñé e implementé un Agente de IA RAG Multimodal que genera resúmenes ejecutivos de forma autónoma, ahorrando 3-4 horas semanales en reuniones internas',
-            'Entregué múltiples demos de cliente en Consultoría de IA y Análisis y Ventas Técnicas',
-            'Apoyé un compromiso de consultoría basado en activos con un proveedor líder de servicios financieros'
+          roles: [
+            {
+              date: 'Junio 2025 – Septiembre 2025',
+              title: 'Pasante de Arquitecto de Soluciones CSM - IBM',
+              location: 'Londres, UK',
+              items: [
+                'Construí un activo de integración de datos sostenible aprovechando tablas Apache Iceberg y Watsonx.ai, reduciendo el tiempo de evaluación en un 18% y el riesgo de alucinación de LLM en un 30%',
+                'Diseñé e implementé un Agente de IA RAG Multimodal que genera resúmenes ejecutivos de forma autónoma, ahorrando 3-4 horas semanales en reuniones internas',
+                'Entregué múltiples demos de cliente en Consultoría de IA y Análisis y Ventas Técnicas',
+                'Apoyé un compromiso de consultoría basado en activos con un proveedor líder de servicios financieros'
+              ]
+            }
           ]
         },
         primax: {
-          date: 'Junio 2024 – Agosto 2024',
-          title: 'Pasante de CRM de Lealtad y Ventas Digitales - Corporación Primax S.A.',
-          location: 'Lima, Perú',
-          items: [
-            'Cuantifiqué la oportunidad de mercado utilizando clustering RFM en más de 5 millones de registros',
-            'Rediseñé matrices de margen para reflejar mejor la rentabilidad entre grupos de consumidores',
-            'Diseñé un panel gerencial para la expansión de la división de Colombia',
-            'Desarrollé alertas automatizadas One-Pager para el monitoreo de KPIs'
+          roles: [
+            {
+              date: 'Junio 2024 – Agosto 2024',
+              title: 'Pasante de CRM de Lealtad y Ventas Digitales - Corporación Primax S.A.',
+              location: 'Lima, Perú',
+              items: [
+                'Cuantifiqué la oportunidad de mercado utilizando clustering RFM en más de 5 millones de registros',
+                'Rediseñé matrices de margen para reflejar mejor la rentabilidad entre grupos de consumidores',
+                'Diseñé un panel gerencial para la expansión de la división de Colombia',
+                'Desarrollé alertas automatizadas One-Pager para el monitoreo de KPIs'
+              ]
+            }
           ]
         },
         aviva: {
-          date: 'Junio 2023 – Septiembre 2023',
-          title: 'Pasante de Gestión de Datos - Clínica Aviva Grupo Intercorp',
-          location: 'Lima, Perú',
-          items: [
-            'Optimicé el proceso de adquisición de farmacia integrando ERP heredado con prototipos RPA',
-            'Reduje las horas de contacto para la toma de decisiones en un 37% entre los equipos de finanzas y adquisiciones'
+          roles: [
+            {
+              date: 'Junio 2023 – Septiembre 2023',
+              title: 'Pasante de Gestión de Datos - Clínica Aviva Grupo Intercorp',
+              location: 'Lima, Perú',
+              items: [
+                'Optimicé el proceso de adquisición de farmacia integrando ERP heredado con prototipos RPA',
+                'Reduje las horas de contacto para la toma de decisiones en un 37% entre los equipos de finanzas y adquisiciones'
+              ]
+            }
+          ]
+        },
+        pacifico: {
+          roles: [
+            {
+              date: 'September 2022 – December 2022',
+              title: 'Data Analytics Off-Cycle Intern - Pacifico Seguros',
+              location: 'Lima, Perú',
+              items: [
+                'Contributed to the company’s digital transformation...'
+              ]
+            },
+            {
+              date: 'June 2022 – September 2022',
+              title: 'Process Innovation Summer Intern - Pacifico Seguros',
+              location: 'Lima, Perú',
+              items: [
+                'Built a sustainable data integration asset leveraging Apache Iceberg tables...',
+                'Designed and deployed a Multimodal RAG AI Agent...',
+                'Delivered multiple client demos...'
+              ]
+            }
           ]
         }
       },
@@ -308,7 +392,7 @@ function App() {
         downloadText: 'Descargar CV/Currículum'
       },
       languages: {
-        title: 'Idiomas',
+        title: 'Idiomas Que Hablo',
         spanish: 'Español',
         english: 'Inglés',
         italian: 'Italiano',
@@ -338,34 +422,68 @@ function App() {
       experience: {
         title: 'Esperienza Professionale',
         ibm: {
-          date: 'Giugno 2025 – Settembre 2025',
-          title: 'Stagista Architetto di Soluzioni CSM - IBM',
-          location: 'Londra, Regno Unito | Gruppo Tecnologico',
-          items: [
-            'Ho costruito un asset di integrazione dati sostenibile sfruttando tabelle Apache Iceberg e Watsonx.ai, riducendo il tempo di valutazione del 18% e il rischio di allucinazione LLM del 30%',
-            'Ho progettato e implementato un Agente AI RAG Multimodale che genera automaticamente riassunti esecutivi, risparmiando 3-4 ore settimanali in riunioni interne',
-            'Ho consegnato molteplici demo per clienti in Consulenza AI e Analytics e Vendite Tecniche',
-            'Ho supportato un impegno di consulenza basato su asset con un fornitore leader di servizi finanziari'
+          roles: [
+            {
+              date: 'Giugno 2025 – Settembre 2025',
+              title: 'Stagista Architetto di Soluzioni CSM - IBM',
+              location: 'Londra, Regno Unito | Gruppo Tecnologico',
+              items: [
+                'Ho costruito un asset di integrazione dati sostenibile sfruttando tabelle Apache Iceberg e Watsonx.ai, riducendo il tempo di valutazione del 18% e il rischio di allucinazione LLM del 30%',
+                'Ho progettato e implementato un Agente AI RAG Multimodale che genera automaticamente riassunti esecutivi, risparmiando 3-4 ore settimanali in riunioni interne',
+                'Ho consegnato molteplici demo per clienti in Consulenza AI e Analytics e Vendite Tecniche',
+                'Ho supportato un impegno di consulenza basato su asset con un fornitore leader di servizi finanziari'
+              ]
+            }
           ]
         },
         primax: {
-          date: 'Giugno 2024 – Agosto 2024',
-          title: 'Stagista CRM Fedeltà e Vendite Digitali - Corporación Primax S.A.',
-          location: 'Lima, Perù',
-          items: [
-            'Ho quantificato l\'opportunità di mercato utilizzando clustering RFM su oltre 5 milioni di record',
-            'Ho ridisegnato matrici di margine per riflettere meglio la redditività tra gruppi di consumatori',
-            'Ho progettato dashboard manageriale per l\'espansione della divisione Colombia',
-            'Ho sviluppato alert automatizzati One-Pager per il monitoraggio KPI'
+          roles: [
+            {
+              date: 'Giugno 2024 – Agosto 2024',
+              title: 'Stagista CRM Fedeltà e Vendite Digitali - Corporación Primax S.A.',
+              location: 'Lima, Perù',
+              items: [
+                'Ho quantificato l\'opportunità di mercato utilizzando clustering RFM su oltre 5 milioni di record',
+                'Ho ridisegnato matrici di margine per riflettere meglio la redditività tra gruppi di consumatori',
+                'Ho progettato dashboard manageriale per l\'espansione della divisione Colombia',
+                'Ho sviluppato alert automatizzati One-Pager per il monitoraggio KPI'
+              ]
+            }
           ]
         },
         aviva: {
-          date: 'Giugno 2023 – Settembre 2023',
-          title: 'Stagista Gestione Dati - Clínica Aviva Grupo Intercorp',
-          location: 'Lima, Perù',
-          items: [
-            'Ho ottimizzato il processo di approvvigionamento farmaceutico integrando ERP legacy con prototipi RPA',
-            'Ho ridotto le ore di contatto per le decisioni del 37% tra i team finanziari e di approvvigionamento'
+          roles: [
+            {
+              date: 'Giugno 2023 – Settembre 2023',
+              title: 'Stagista Gestione Dati - Clínica Aviva Grupo Intercorp',
+              location: 'Lima, Perù',
+              items: [
+                'Ho ottimizzato il processo di approvvigionamento farmaceutico integrando ERP legacy con prototipi RPA',
+                'Ho ridotto le ore di contatto per le decisioni del 37% tra i team finanziari e di approvvigionamento'
+              ]
+            }
+          ]
+        },
+        pacifico: {
+          roles: [
+            {
+              date: 'September 2022 – December 2022',
+              title: 'Data Analytics Off-Cycle Intern - Pacifico Seguros',
+              location: 'Lima, Perú',
+              items: [
+                'Contributed to the company’s digital transformation...'
+              ]
+            },
+            {
+              date: 'June 2022 – September 2022',
+              title: 'Process Innovation Summer Intern - Pacifico Seguros',
+              location: 'Lima, Perú',
+              items: [
+                'Built a sustainable data integration asset leveraging Apache Iceberg tables...',
+                'Designed and deployed a Multimodal RAG AI Agent...',
+                'Delivered multiple client demos...'
+              ]
+            }
           ]
         }
       },
@@ -462,7 +580,7 @@ function App() {
         downloadText: 'Scarica CV/Curriculum'
       },
       languages: {
-        title: 'Lingue',
+        title: 'Lingue Che Parlo',
         spanish: 'Spagnolo',
         english: 'Inglese',
         italian: 'Italiano',
@@ -574,7 +692,7 @@ function App() {
             <div className="tags-container">
               <span className="tag-bubble">AI/ML</span>
               <span className="tag-bubble">Cloud Services</span>
-              <span className="tag-bubble">Data Analytics</span>
+              <span className="tag-bubble">Predicitive Analytics</span>
               <span className="tag-bubble">Digital Twins</span>
             </div>
             
@@ -617,93 +735,129 @@ function App() {
       <section className="section alt-bg" id="experience">
         <div className="container">
           <h2 className="animate">{t.experience.title}</h2>
-          
+
           <div className="timeline">
+
+            {/* IBM */}
             <div className="timeline-item animate">
               <div className="timeline-content">
-                <span className="date">{t.experience.ibm.date}</span>
-                <h3>{t.experience.ibm.title}</h3>
-                <p className="highlight">{t.experience.ibm.location}</p>
+                {(t.experience.ibm?.roles || []).map((role, roleIndex) => (
+                  <div className="role-block" key={roleIndex}>
+                    <span className="date">{role.date}</span>
+                    <h3>{role.title}</h3>
+                    <p className="highlight">{role.location}</p>
+                    <ul>
+                      {(role.items || []).map((item, itemIndex) => (
+                        <li key={itemIndex}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Primax */}
+            <div className="timeline-item animate">
+              <div className="timeline-content">
+                {(t.experience.primax?.roles || []).map((role, roleIndex) => (
+                  <div className="role-block" key={roleIndex}>
+                    <span className="date">{role.date}</span>
+                    <h3>{role.title}</h3>
+                    <p className="highlight">{role.location}</p>
+                    <ul>
+                      {(role.items || []).map((item, itemIndex) => (
+                        <li key={itemIndex}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Aviva */}
+            <div className="timeline-item animate">
+              <div className="timeline-content">
+                {(t.experience.aviva?.roles || []).map((role, roleIndex) => (
+                  <div className="role-block" key={roleIndex}>
+                    <span className="date">{role.date}</span>
+                    <h3>{role.title}</h3>
+                    <p className="highlight">{role.location}</p>
+                    <ul>
+                      {(role.items || []).map((item, itemIndex) => (
+                        <li key={itemIndex}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Pacífico */}
+            <div className="timeline-item animate">
+              <div className="timeline-content">
+                {(t.experience.pacifico?.roles || []).map((role, roleIndex) => (
+                  <div className="role-block" key={roleIndex}>
+                    <span className="date">{role.date}</span>
+                    <h3>{role.title}</h3>
+                    <p className="highlight">{role.location}</p>
+                    <ul>
+                      {(role.items || []).map((item, itemIndex) => (
+                        <li key={itemIndex}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+        {/* Projects Section */}
+        <section className="section" id="projects">
+          <div className="container">
+            <h2 className="animate">{t.projects.title}</h2>
+            
+            <div className="projects-grid">
+              <div className="project-card animate">
+                <a href="https://joaquin-villar.github.io" target="_blank" rel="noopener noreferrer" className="project-github-link" aria-label="View project on GitHub">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+                <h3 className="highlight">{t.projects.portfolio.title}</h3>
+                <p><strong>{t.projects.portfolio.tech}</strong></p>
                 <ul>
-                  {t.experience.ibm.items.map((item, index) => (
+                  {t.projects.portfolio.items.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
               </div>
-            </div>
 
-            <div className="timeline-item animate">
-              <div className="timeline-content">
-                <span className="date">{t.experience.primax.date}</span>
-                <h3>{t.experience.primax.title}</h3>
-                <p className="highlight">{t.experience.primax.location}</p>
+              <div className="project-card animate">
+                <h3 className="highlight">{t.projects.dssSociety.title}</h3>
+                <p><strong>{t.projects.dssSociety.tech}</strong></p>
                 <ul>
-                  {t.experience.primax.items.map((item, index) => (
+                  {t.projects.dssSociety.items.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
               </div>
-            </div>
 
-            <div className="timeline-item animate">
-              <div className="timeline-content">
-                <span className="date">{t.experience.aviva.date}</span>
-                <h3>{t.experience.aviva.title}</h3>
-                <p className="highlight">{t.experience.aviva.location}</p>
+              <div className="project-card animate">
+                <h3 className="highlight">{t.projects.windEnergy.title}</h3>
+                <p><strong>{t.projects.windEnergy.tech}</strong></p>
                 <ul>
-                  {t.experience.aviva.items.map((item, index) => (
+                  {t.projects.windEnergy.items.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Projects Section */}
-      <section className="section" id="projects">
-        <div className="container">
-          <h2 className="animate">{t.projects.title}</h2>
-          
-          <div className="projects-grid">
-            <div className="project-card animate">
-              <a href="https://joaquin-villar.github.io" target="_blank" rel="noopener noreferrer" className="project-github-link" aria-label="View project on GitHub">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-              </a>
-              <h3 className="highlight">{t.projects.portfolio.title}</h3>
-              <p><strong>{t.projects.portfolio.tech}</strong></p>
-              <ul>
-                {t.projects.portfolio.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="project-card animate">
-              <h3 className="highlight">{t.projects.dssSociety.title}</h3>
-              <p><strong>{t.projects.dssSociety.tech}</strong></p>
-              <ul>
-                {t.projects.dssSociety.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="project-card animate">
-              <h3 className="highlight">{t.projects.windEnergy.title}</h3>
-              <p><strong>{t.projects.windEnergy.tech}</strong></p>
-              <ul>
-                {t.projects.windEnergy.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
       {/* Education Section */}
       <section className="section alt-bg" id="education">
@@ -731,44 +885,52 @@ function App() {
           <h2 className="animate">{t.leadership.title}</h2>
           
           <div className="projects-grid">
+            {/* Data Science Society */}
             <div className="project-card animate">
-              <h3 className="highlight">{t.leadership.dssEducation.title}</h3>
-              <p><strong>{t.leadership.dssEducation.period}</strong></p>
-              <ul>
-                {t.leadership.dssEducation.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              {(t.leadership.dss?.roles || []).map((role, roleIndex) => (
+                <div key={roleIndex} style={{marginBottom: roleIndex < t.leadership.dss.roles.length - 1 ? '2rem' : '0'}}>
+                  <span className="date" style={{background: 'var(--blue)', color: 'white', padding: '0.4rem 1rem', borderRadius: '15px', fontSize: '1.2rem', fontWeight: '600', display: 'inline-block', marginBottom: '1rem'}}>{role.date}</span>
+                  <h3 className="highlight">{role.title}</h3>
+                  <p><strong>{role.location}</strong></p>
+                  <ul>
+                    {(role.items || []).map((item, itemIndex) => (
+                      <li key={itemIndex}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
 
+            {/* GenAI Society */}
             <div className="project-card animate">
-              <h3 className="highlight">{t.leadership.dssPresident.title}</h3>
-              <p><strong>{t.leadership.dssPresident.period}</strong></p>
-              <ul>
-                {t.leadership.dssPresident.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              {(t.leadership.genAI?.roles || []).map((role, roleIndex) => (
+                <div key={roleIndex} style={{marginBottom: roleIndex < t.leadership.genAI.roles.length - 1 ? '2rem' : '0'}}>
+                  <span className="date" style={{background: 'var(--blue)', color: 'white', padding: '0.4rem 1rem', borderRadius: '15px', fontSize: '1.2rem', fontWeight: '600', display: 'inline-block', marginBottom: '1rem'}}>{role.date}</span>
+                  <h3 className="highlight">{role.title}</h3>
+                  <p><strong>{role.location}</strong></p>
+                  <ul>
+                    {(role.items || []).map((item, itemIndex) => (
+                      <li key={itemIndex}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
 
+            {/* Siemens */}
             <div className="project-card animate">
-              <h3 className="highlight">{t.leadership.genAI.title}</h3>
-              <p><strong>{t.leadership.genAI.period}</strong></p>
-              <ul>
-                {t.leadership.genAI.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="project-card animate">
-              <h3 className="highlight">{t.leadership.siemens.title}</h3>
-              <p><strong>{t.leadership.siemens.period}</strong></p>
-              <ul>
-                {t.leadership.siemens.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              {(t.leadership.siemens?.roles || []).map((role, roleIndex) => (
+                <div key={roleIndex} style={{marginBottom: roleIndex < t.leadership.siemens.roles.length - 1 ? '2rem' : '0'}}>
+                  <span className="date" style={{background: 'var(--blue)', color: 'white', padding: '0.4rem 1rem', borderRadius: '15px', fontSize: '1.2rem', fontWeight: '600', display: 'inline-block', marginBottom: '1rem'}}>{role.date}</span>
+                  <h3 className="highlight">{role.title}</h3>
+                  <p><strong>{role.location}</strong></p>
+                  <ul>
+                    {(role.items || []).map((item, itemIndex) => (
+                      <li key={itemIndex}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         </div>
