@@ -96,7 +96,7 @@ export const translations = {
       greenhouse: {
         title: 'Greenhouse Digital Twin',
         tech: 'SNNs, AWS Lambda, PostgreSQL RDS, Serverless',
-        img: '/greenhouse.png',
+        img: '/projects/greenhouse.png',
         items: [
           'Implemented a near real-time digital twin for greenhouse monitoring using Spiking Neural Networks (SNNs).',
           'Built a serverless architecture on AWS utilizing Lambda, EventBridge, and PostgreSQL RDS for sensor data processing.',
@@ -110,7 +110,7 @@ export const translations = {
       portfolio: {
         title: 'Personal Portfolio Website',
         tech: 'React, JavaScript, CSS',
-        img: '/portfolio-preview.png',
+        img: '/projects/portfolio-preview.png',
         items: [
           'Built modern, responsive portfolio showcasing professional experience and projects',
           'Implemented animations, interactive UI components and multi-language support',
@@ -123,7 +123,7 @@ export const translations = {
       newsClassifier: {
         title: 'LoRA News Classifier',
         tech: 'NLP, PEFT (LoRA), Streamlit, Hugging Face',
-        img: '/news-classifier.png',
+        img: '/projects/news-classifier.png',
         items: [
           'Fine-tuned a Large Language Model using Low-Rank Adaptation (LoRA) for news categorization',
           'Deployed the model as an interactive web app using Streamlit',
@@ -137,7 +137,7 @@ export const translations = {
       dssSociety: {
         title: 'Data Science Society Website',
         tech: 'React, Web Development, Vercel',
-        img: '/dss-website.png',
+        img: '/projects/dss-website.png',
         items: [
           'Designed and developed the official website for 120+ society members',
           'Integrated event management and member communication systems',
@@ -150,7 +150,7 @@ export const translations = {
       limaMapping: {
         title: 'Lima Projects Mapping',
         tech: 'Geospatial Data, Visualization, Vercel',
-        img: '/lima-mapping.png',
+        img: '/projects/lima-mapping.png',
         items: [
           'Interactive map visualization of infrastructure projects in Lima',
           'Provides insights into urban development and resource allocation',
@@ -163,7 +163,7 @@ export const translations = {
       windEnergy: {
         title: 'Wind Energy & Grid Stability',
         tech: 'Python, ML, Responsible Data Science, Time Series Analysis',
-        img: '/wind-energy.png',
+        img: '/projects/wind-energy.png',
         items: [
           'Conducted an empirical analysis of wind energy impact on UK Grid stability.',
           'Developed machine learning models to predict frequency instability thresholds in renewable-heavy systems.',
@@ -256,24 +256,24 @@ export const translations = {
         title: 'Certifications',
         items: [
           { title: 'AWS Academy Graduate - Cloud Foundations', img: 'aws-academy-graduate-cloud-foundations-training-bad.png', link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-foundations-training-bad' },
-          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: 'https://www.credly.com/org/ibm/badge/ibm-academic-ambassador' },
-          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: 'https://www.credly.com/org/ibm/badge/ibm-internship-program-certificate' },
-          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: 'https://www.credly.com/org/ibm/badge/ibm-consulting-agentic-ai-foundations' },
-          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: 'https://www.credly.com/org/ibm/badge/ibm-growth-behaviors' },
-          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-sales-foundation' },
-          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: 'https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-foundation' },
-          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-preparation-sales-foundation' },
-          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-generative-ai-tools-sales-foundation' },
-          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: 'https://www.credly.com/org/ibm/badge/trustworthy-ai-and-ai-ethics' },
+          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: '/certifications/Joaquin Villar - IBM Academic Ambassador.pdf' },
+          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: '/certifications/Joaquin Villar = IBM Internship Program Certificate.pdf' },
+          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: '/certifications/Joaquin Villar - IBM Consulting Agentic AI Foundations.pdf' },
+          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: '/certifications/Joaquin Villar - IBM Growth Behaviours.pdf' },
+          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: '/certifications/Joaquin Villar- Maximo Application Suite.pdf' },
+          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: '/certifications/Joaquin Villar - IBM Generative AI Foundations.pdf' },
+          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Data Preparation.pdf' },
+          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Generative AI Tools.pdf' },
+          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: '/certifications/Joaquin Villar - IBM Trustworthy AI and AI Ethics.pdf' },
           { title: 'Maximo Application Suite Technical Sales Intermediate', img: 'maximo-application-suite-technical-sales-intermediate.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-technical-sales-intermediate' },
-          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: 'https://www.credly.com/org/ibm/badge/2025-ibmer-watsonx-challenge' },
-          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-co-creator' },
-          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-science-and-mlops-sales-foundation' },
-          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-etl-and-elt-sales-foundati' },
-          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-data-observability-sales-f' },
+          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: '/certifications/Joaquin Villar - IBMer Watsonx Challenge Certificate.pdf' },
+          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: '/certifications/Joaquin Villar - Enterprise Design Thinking Co-Creator.pdf' },
+          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Data Science and MLOps.pdf' },
+          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: '/certifications/Joaquin Villar - Watsonx.data integration ETL and ELT.pdf' },
+          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: '/certifications/Joaquin Villar - watsonx.data integration Data Observability.pdf' },
           { title: 'Enterprise Design Thinking Practitioner', img: 'enterprise-design-thinking-practitioner.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-practitioner' },
-          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-orchestrate-sales-foundation' },
-          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: 'https://www.forage.com/virtual-internships/theme/HjtS8N9W4zX6R4Z9b/Accenture-North-America-Strategy-Virtual-Experience-Program' }
+          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: '/certifications/Joaquin Villar - Watsonx Orchestrate.pdf' },
+          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: '/certifications/Joaquin Villar - Strategy Consulting Certificate Accenture.pdf' }
         ]
       }
     },
@@ -386,7 +386,7 @@ export const translations = {
       greenhouse: {
         title: 'Gemelo Digital de Invernadero',
         tech: 'SNNs, AWS Lambda, PostgreSQL RDS, Serverless',
-        img: '/greenhouse.png',
+        img: '/projects/greenhouse.png',
         items: [
           'Implementé un gemelo digital en tiempo casi real para el monitoreo de invernaderos usando Redes Neuronales de Impulsos (SNNs).',
           'Construí una arquitectura serverless en AWS utilizando Lambda, EventBridge y PostgreSQL RDS para el procesamiento de datos de sensores.',
@@ -400,7 +400,7 @@ export const translations = {
       portfolio: {
         title: 'Sitio Web de Portafolio Personal',
         tech: 'React, JavaScript, CSS',
-        img: '/portfolio-preview.png',
+        img: '/projects/portfolio-preview.png',
         items: [
           'Construí un portafolio moderno y responsive',
           'Implementé animaciones y soporte multilingüe',
@@ -413,7 +413,7 @@ export const translations = {
       newsClassifier: {
         title: 'Clasificador de Noticias LoRA',
         tech: 'NLP, PEFT (LoRA), Streamlit, Hugging Face',
-        img: '/news-classifier.png',
+        img: '/projects/news-classifier.png',
         items: [
           'Afiné un LLM usando Adaptación de Bajo Rango (LoRA)',
           'Desplegué el modelo como app web interactiva en Streamlit',
@@ -427,7 +427,7 @@ export const translations = {
       dssSociety: {
         title: 'Sitio Web Data Science Society',
         tech: 'React, Desarrollo Web, Vercel',
-        img: '/dss-website.png',
+        img: '/projects/dss-website.png',
         items: [
           'Diseñé y desarrollé el sitio web oficial para más de 120 miembros',
           'Integré sistemas de gestión de eventos',
@@ -440,7 +440,7 @@ export const translations = {
       limaMapping: {
         title: 'Mapeo de Proyectos en Lima',
         tech: 'Datos Geoespaciales, Visualización',
-        img: '/lima-mapping.png',
+        img: '/projects/lima-mapping.png',
         items: [
           'Visualización interactiva de proyectos de infraestructura en Lima',
           'Proporciona insights sobre desarrollo urbano',
@@ -453,7 +453,7 @@ export const translations = {
       windEnergy: {
         title: 'Energía Eólica y Estabilidad de Red',
         tech: 'Python, ML, Ciencia de Datos Responsable',
-        img: '/wind-energy.png',
+        img: '/projects/wind-energy.png',
         items: [
           'Realicé un análisis empírico del impacto de la energía eólica en la estabilidad de la red del Reino Unido (INF216).',
           'Desarrollé modelos de ML para predecir umbrales de inestabilidad de frecuencia en sistemas renovables.',
@@ -546,24 +546,24 @@ export const translations = {
         title: 'Certificaciones',
         items: [
           { title: 'AWS Academy Graduate - Cloud Foundations', img: 'aws-academy-graduate-cloud-foundations-training-bad.png', link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-foundations-training-bad' },
-          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: 'https://www.credly.com/org/ibm/badge/ibm-academic-ambassador' },
-          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: 'https://www.credly.com/org/ibm/badge/ibm-internship-program-certificate' },
-          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: 'https://www.credly.com/org/ibm/badge/ibm-consulting-agentic-ai-foundations' },
-          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: 'https://www.credly.com/org/ibm/badge/ibm-growth-behaviors' },
-          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-sales-foundation' },
-          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: 'https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-foundation' },
-          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-preparation-sales-foundation' },
-          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-generative-ai-tools-sales-foundation' },
-          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: 'https://www.credly.com/org/ibm/badge/trustworthy-ai-and-ai-ethics' },
+          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: '/certifications/Joaquin Villar - IBM Academic Ambassador.pdf' },
+          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: '/certifications/Joaquin Villar = IBM Internship Program Certificate.pdf' },
+          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: '/certifications/Joaquin Villar - IBM Consulting Agentic AI Foundations.pdf' },
+          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: '/certifications/Joaquin Villar - IBM Growth Behaviours.pdf' },
+          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: '/certifications/Joaquin Villar- Maximo Application Suite.pdf' },
+          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: '/certifications/Joaquin Villar - IBM Generative AI Foundations.pdf' },
+          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Data Preparation.pdf' },
+          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Generative AI Tools.pdf' },
+          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: '/certifications/Joaquin Villar - IBM Trustworthy AI and AI Ethics.pdf' },
           { title: 'Maximo Application Suite Technical Sales Intermediate', img: 'maximo-application-suite-technical-sales-intermediate.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-technical-sales-intermediate' },
-          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: 'https://www.credly.com/org/ibm/badge/2025-ibmer-watsonx-challenge' },
-          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-co-creator' },
-          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-science-and-mlops-sales-foundation' },
-          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-etl-and-elt-sales-foundati' },
-          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-data-observability-sales-f' },
+          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: '/certifications/Joaquin Villar - IBMer Watsonx Challenge Certificate.pdf' },
+          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: '/certifications/Joaquin Villar - Enterprise Design Thinking Co-Creator.pdf' },
+          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Data Science and MLOps.pdf' },
+          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: '/certifications/Joaquin Villar - Watsonx.data integration ETL and ELT.pdf' },
+          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: '/certifications/Joaquin Villar - watsonx.data integration Data Observability.pdf' },
           { title: 'Enterprise Design Thinking Practitioner', img: 'enterprise-design-thinking-practitioner.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-practitioner' },
-          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-orchestrate-sales-foundation' },
-          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: 'https://www.forage.com/virtual-internships/theme/HjtS8N9W4zX6R4Z9b/Accenture-North-America-Strategy-Virtual-Experience-Program' }
+          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: '/certifications/Joaquin Villar - Watsonx Orchestrate.pdf' },
+          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: '/certifications/Joaquin Villar - Strategy Consulting Certificate Accenture.pdf' }
         ]
       }
     },
@@ -676,7 +676,7 @@ export const translations = {
       greenhouse: {
         title: 'Digital Twin Serra',
         tech: 'SNNs, AWS Lambda, PostgreSQL RDS, Serverless',
-        img: '/greenhouse.png',
+        img: '/projects/greenhouse.png',
         items: [
           'Implementato un gemello digitale in tempo quasi reale per il monitoraggio delle serre utilizzando Spiking Neural Networks (SNNs).',
           'Costruita un\'architettura serverless su AWS utilizzando Lambda, EventBridge e PostgreSQL RDS per l\'elaborazione dei dati dei sensori.',
@@ -690,7 +690,7 @@ export const translations = {
       portfolio: {
         title: 'Sito Web Portfolio Personale',
         tech: 'React, JavaScript, CSS',
-        img: '/portfolio-preview.png',
+        img: '/projects/portfolio-preview.png',
         items: [
           'Ho costruito un portfolio moderno e responsive',
           'Ho implementato animazioni e supporto multilingue',
@@ -703,7 +703,7 @@ export const translations = {
       newsClassifier: {
         title: 'Classificatore di Notizie LoRA',
         tech: 'NLP, PEFT (LoRA), Streamlit, Hugging Face',
-        img: '/news-classifier.png',
+        img: '/projects/news-classifier.png',
         items: [
           'Ho perfezionato un LLM usando Low-Rank Adaptation (LoRA)',
           'Ho distribuito il modello come app web interattiva su Streamlit',
@@ -717,7 +717,7 @@ export const translations = {
       dssSociety: {
         title: 'Sito Web Data Science Society',
         tech: 'React, Sviluppo Web, Vercel',
-        img: '/dss-website.png',
+        img: '/projects/dss-website.png',
         items: [
           'Ho progettato e sviluppato il sito ufficiale per oltre 120 membri',
           'Ho integrato sistemi di gestione eventi',
@@ -730,7 +730,7 @@ export const translations = {
       limaMapping: {
         title: 'Mappatura Progetti Lima',
         tech: 'Dati Geospaziali, Visualizzazione',
-        img: '/lima-mapping.png',
+        img: '/projects/lima-mapping.png',
         items: [
           'Visualizzazione interattiva dei progetti infrastrutturali a Lima',
           'Fornisce approfondimenti sullo sviluppo urbano',
@@ -743,7 +743,7 @@ export const translations = {
       windEnergy: {
         title: 'Energia Eolica e Stabilità di Rete',
         tech: 'Python, ML, Data Science Responsabile',
-        img: '/wind-energy.png',
+        img: '/projects/wind-energy.png',
         items: [
           'Condotto un\'analisi empirica dell\'impatto dell\'energia eolica sulla stabilità della rete del Regno Unito (INF216).',
           'Sviluppato modelli di ML per prevedere le soglie di instabilità di frequenza nei sistemi rinnovabili.',
@@ -836,24 +836,24 @@ export const translations = {
         title: 'Certificazioni',
         items: [
           { title: 'AWS Academy Graduate - Cloud Foundations', img: 'aws-academy-graduate-cloud-foundations-training-bad.png', link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-foundations-training-bad' },
-          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: 'https://www.credly.com/org/ibm/badge/ibm-academic-ambassador' },
-          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: 'https://www.credly.com/org/ibm/badge/ibm-internship-program-certificate' },
-          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: 'https://www.credly.com/org/ibm/badge/ibm-consulting-agentic-ai-foundations' },
-          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: 'https://www.credly.com/org/ibm/badge/ibm-growth-behaviors' },
-          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-sales-foundation' },
-          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: 'https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-foundation' },
-          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-preparation-sales-foundation' },
-          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-generative-ai-tools-sales-foundation' },
-          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: 'https://www.credly.com/org/ibm/badge/trustworthy-ai-and-ai-ethics' },
+          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: '/certifications/Joaquin Villar - IBM Academic Ambassador.pdf' },
+          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: '/certifications/Joaquin Villar = IBM Internship Program Certificate.pdf' },
+          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: '/certifications/Joaquin Villar - IBM Consulting Agentic AI Foundations.pdf' },
+          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: '/certifications/Joaquin Villar - IBM Growth Behaviours.pdf' },
+          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: '/certifications/Joaquin Villar- Maximo Application Suite.pdf' },
+          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: '/certifications/Joaquin Villar - IBM Generative AI Foundations.pdf' },
+          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Data Preparation.pdf' },
+          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Generative AI Tools.pdf' },
+          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: '/certifications/Joaquin Villar - IBM Trustworthy AI and AI Ethics.pdf' },
           { title: 'Maximo Application Suite Technical Sales Intermediate', img: 'maximo-application-suite-technical-sales-intermediate.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-technical-sales-intermediate' },
-          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: 'https://www.credly.com/org/ibm/badge/2025-ibmer-watsonx-challenge' },
-          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-co-creator' },
-          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-science-and-mlops-sales-foundation' },
-          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-etl-and-elt-sales-foundati' },
-          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-data-observability-sales-f' },
+          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: '/certifications/Joaquin Villar - IBMer Watsonx Challenge Certificate.pdf' },
+          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: '/certifications/Joaquin Villar - Enterprise Design Thinking Co-Creator.pdf' },
+          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Data Science and MLOps.pdf' },
+          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: '/certifications/Joaquin Villar - Watsonx.data integration ETL and ELT.pdf' },
+          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: '/certifications/Joaquin Villar - watsonx.data integration Data Observability.pdf' },
           { title: 'Enterprise Design Thinking Practitioner', img: 'enterprise-design-thinking-practitioner.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-practitioner' },
-          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-orchestrate-sales-foundation' },
-          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: 'https://www.forage.com/virtual-internships/theme/HjtS8N9W4zX6R4Z9b/Accenture-North-America-Strategy-Virtual-Experience-Program' }
+          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: '/certifications/Joaquin Villar - Watsonx Orchestrate.pdf' },
+          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: '/certifications/Joaquin Villar - Strategy Consulting Certificate Accenture.pdf' }
         ]
       }
     },
