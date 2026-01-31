@@ -1,3 +1,8 @@
+// --- Configuration ---
+export const CONFIG = {
+  showOpenToWork: true
+};
+
 export const translations = {
   en: {
     // ... [nav, hero, about, experience, projects, education, leadership remain the same] ...
@@ -8,7 +13,7 @@ export const translations = {
       experience: 'Experience',
       projects: 'Projects',
       education: 'Education',
-      leadership: 'Leadership',
+      giveback: 'GiveBack',
       contact: 'Contact'
     },
     hero: {
@@ -174,8 +179,8 @@ export const translations = {
       coursework: 'Relevant Coursework:',
       courses: 'Inferential Statistics, Building AI Applications, Database Modelling, AI Ethics, Machine Learning. Extracurriculars: Sheffield University Rowing Club, Data Science Society (Founder), Sheffield Technology Group (Co-Founder), Siemens DIZ Advisor, Italian Society, Wine Society (Treasurer)'
     },
-    leadership: {
-      title: 'Leadership & Volunteering',
+    giveback: {
+      title: 'GiveBack',
       dss: {
         roles: [
           {
@@ -280,7 +285,7 @@ export const translations = {
       experience: 'Experiencia',
       projects: 'Proyectos',
       education: 'Educación',
-      leadership: 'Liderazgo',
+      giveback: 'GiveBack',
       contact: 'Contacto'
     },
     hero: {
@@ -446,8 +451,8 @@ export const translations = {
       coursework: 'Cursos Relevantes:',
       courses: 'Estadística Inferencial, Aplicaciones de IA, Modelado de Bases de Datos, Ética en IA, Machine Learning. Actividades: Club de Remo, Data Science Society (Fundador), Sheffield Technology Group (Cofundador), Asesor Siemens DIZ, Italian Society, Wine Society (Tesorero)'
     },
-    leadership: {
-      title: 'Liderazgo y Voluntariado',
+    giveback: {
+      title: 'GiveBack',
       dss: {
         roles: [
           {
@@ -552,7 +557,7 @@ export const translations = {
       experience: 'Esperienza',
       projects: 'Progetti',
       education: 'Istruzione',
-      leadership: 'Leadership',
+      giveback: 'GiveBack',
       contact: 'Contatto'
     },
     hero: {
@@ -718,8 +723,8 @@ export const translations = {
       coursework: 'Corsi Rilevanti:',
       courses: 'Statistica Inferenziale, Applicazioni AI, Modellazione Database, Etica AI, Machine Learning. Attività: Club di Canottaggio, Data Science Society (Fondatore), Sheffield Technology Group (Cofondatore), Consulente Siemens DIZ, Italian Society, Wine Society (Tesoriere)'
     },
-    leadership: {
-      title: 'Leadership e Volontariato',
+    giveback: {
+      title: 'GiveBack',
       dss: {
         roles: [
           {

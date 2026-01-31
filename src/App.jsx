@@ -196,7 +196,6 @@ function App() {
           <div className="hero-right">
             <div className="profile-wrapper animate">
               <div className="open-to-work-badge">
-                <span className="badge-dot pulse"></span>
                 {t.hero.openToWork}
               </div>
               <img
@@ -311,12 +310,12 @@ function App() {
         </div>
       </section>
 
-      {/* Leadership Section */}
-      <section className="section" id="leadership">
+      {/* GiveBack Section */}
+      <section className="section" id="giveback">
         <div className="container">
-          <SectionHeader title={t.leadership.title} />
+          <SectionHeader title={t.giveback.title} />
           <div className="projects-grid">
-            {[t.leadership.dss, t.leadership.genAI, t.leadership.siemens].map((group, idx) => (
+            {[t.giveback.dss, t.giveback.genAI, t.giveback.siemens].map((group, idx) => (
               <div key={idx} style={{ display: 'contents' }}>
                 {group?.roles ? group.roles.map((role, rIdx) => (
                   <ProjectCard
