@@ -394,7 +394,13 @@ function App() {
           <h3 className="subheading animate">{t.skills.certifications.title}</h3>
           <div className="cert-grid">
             {t.skills.certifications.items.map((cert, i) => (
-              <a key={i} href="https://www.credly.com/users/joaquin-villar" target="_blank" rel="noopener noreferrer" className="cert-item animate">
+              <a
+                key={i}
+                href={cert.link || "https://www.credly.com/users/joaquin-villar"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cert-item animate"
+              >
                 <img src={`/badges/${cert.img}`} alt={cert.title} className="cert-badge" />
                 <p>{cert.title}</p>
               </a>

@@ -255,12 +255,25 @@ export const translations = {
       certifications: {
         title: 'Certifications',
         items: [
-          { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-          { img: 'agentic-ai.png', title: 'IBM Consulting Agentic AI Foundations' },
-          { img: 'watsonx.png', title: 'Watsonx.ai Data Science and MLOps Sales' },
-          { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-          { img: 'design-thinking.png', title: 'Accenture Strategy Consulting' },
-          { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
+          { title: 'AWS Academy Graduate - Cloud Foundations', img: 'aws-academy-graduate-cloud-foundations-training-bad.png', link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-foundations-training-bad' },
+          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: 'https://www.credly.com/org/ibm/badge/ibm-academic-ambassador' },
+          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: 'https://www.credly.com/org/ibm/badge/ibm-internship-program-certificate' },
+          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: 'https://www.credly.com/org/ibm/badge/ibm-consulting-agentic-ai-foundations' },
+          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: 'https://www.credly.com/org/ibm/badge/ibm-growth-behaviors' },
+          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-sales-foundation' },
+          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: 'https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-foundation' },
+          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-preparation-sales-foundation' },
+          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-generative-ai-tools-sales-foundation' },
+          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: 'https://www.credly.com/org/ibm/badge/trustworthy-ai-and-ai-ethics' },
+          { title: 'Maximo Application Suite Technical Sales Intermediate', img: 'maximo-application-suite-technical-sales-intermediate.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-technical-sales-intermediate' },
+          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: 'https://www.credly.com/org/ibm/badge/2025-ibmer-watsonx-challenge' },
+          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-co-creator' },
+          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-science-and-mlops-sales-foundation' },
+          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-etl-and-elt-sales-foundati' },
+          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-data-observability-sales-f' },
+          { title: 'Enterprise Design Thinking Practitioner', img: 'enterprise-design-thinking-practitioner.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-practitioner' },
+          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-orchestrate-sales-foundation' },
+          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: 'https://www.forage.com/virtual-internships/theme/HjtS8N9W4zX6R4Z9b/Accenture-North-America-Strategy-Virtual-Experience-Program' }
         ]
       }
     },
@@ -532,12 +545,25 @@ export const translations = {
       certifications: {
         title: 'Certificaciones',
         items: [
-          { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-          { img: 'agentic-ai.png', title: 'IBM Consulting Agentic AI Foundations' },
-          { img: 'watsonx.png', title: 'Watsonx.ai Data Science and MLOps Sales' },
-          { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-          { img: 'design-thinking.png', title: 'Accenture Strategy Consulting' },
-          { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
+          { title: 'AWS Academy Graduate - Cloud Foundations', img: 'aws-academy-graduate-cloud-foundations-training-bad.png', link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-foundations-training-bad' },
+          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: 'https://www.credly.com/org/ibm/badge/ibm-academic-ambassador' },
+          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: 'https://www.credly.com/org/ibm/badge/ibm-internship-program-certificate' },
+          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: 'https://www.credly.com/org/ibm/badge/ibm-consulting-agentic-ai-foundations' },
+          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: 'https://www.credly.com/org/ibm/badge/ibm-growth-behaviors' },
+          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-sales-foundation' },
+          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: 'https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-foundation' },
+          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-preparation-sales-foundation' },
+          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-generative-ai-tools-sales-foundation' },
+          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: 'https://www.credly.com/org/ibm/badge/trustworthy-ai-and-ai-ethics' },
+          { title: 'Maximo Application Suite Technical Sales Intermediate', img: 'maximo-application-suite-technical-sales-intermediate.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-technical-sales-intermediate' },
+          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: 'https://www.credly.com/org/ibm/badge/2025-ibmer-watsonx-challenge' },
+          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-co-creator' },
+          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-science-and-mlops-sales-foundation' },
+          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-etl-and-elt-sales-foundati' },
+          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-data-observability-sales-f' },
+          { title: 'Enterprise Design Thinking Practitioner', img: 'enterprise-design-thinking-practitioner.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-practitioner' },
+          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-orchestrate-sales-foundation' },
+          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: 'https://www.forage.com/virtual-internships/theme/HjtS8N9W4zX6R4Z9b/Accenture-North-America-Strategy-Virtual-Experience-Program' }
         ]
       }
     },
@@ -809,12 +835,25 @@ export const translations = {
       certifications: {
         title: 'Certificazioni',
         items: [
-          { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-          { img: 'agentic-ai.png', title: 'IBM Consulting Agentic AI Foundations' },
-          { img: 'watsonx.png', title: 'Watsonx.ai Data Science and MLOps Sales' },
-          { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-          { img: 'design-thinking.png', title: 'Accenture Strategy Consulting' },
-          { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
+          { title: 'AWS Academy Graduate - Cloud Foundations', img: 'aws-academy-graduate-cloud-foundations-training-bad.png', link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-foundations-training-bad' },
+          { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: 'https://www.credly.com/org/ibm/badge/ibm-academic-ambassador' },
+          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: 'https://www.credly.com/org/ibm/badge/ibm-internship-program-certificate' },
+          { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: 'https://www.credly.com/org/ibm/badge/ibm-consulting-agentic-ai-foundations' },
+          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: 'https://www.credly.com/org/ibm/badge/ibm-growth-behaviors' },
+          { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-sales-foundation' },
+          { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: 'https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-foundation' },
+          { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-preparation-sales-foundation' },
+          { title: 'watsonx.ai Generative AI Tools Sales Foundation', img: 'watsonx-ai-generative-ai-tools-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-generative-ai-tools-sales-foundation' },
+          { title: 'Trustworthy AI and AI Ethics', img: 'trustworthy-ai-and-ai-ethics.png', link: 'https://www.credly.com/org/ibm/badge/trustworthy-ai-and-ai-ethics' },
+          { title: 'Maximo Application Suite Technical Sales Intermediate', img: 'maximo-application-suite-technical-sales-intermediate.png', link: 'https://www.credly.com/org/ibm/badge/maximo-application-suite-technical-sales-intermediate' },
+          { title: '2025 IBMer watsonx Challenge', img: '2025-ibmer-watsonx-challenge.png', link: 'https://www.credly.com/org/ibm/badge/2025-ibmer-watsonx-challenge' },
+          { title: 'Enterprise Design Thinking Co-Creator', img: 'enterprise-design-thinking-co-creator.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-co-creator' },
+          { title: 'watsonx.ai Data Science and MLOps Sales Foundation', img: 'watsonx-ai-data-science-and-mlops-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-ai-data-science-and-mlops-sales-foundation' },
+          { title: 'watsonx.data integration ETL and ELT Sales Foundation', img: 'watsonx-data-integration-etl-and-elt-sales-foundati.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-etl-and-elt-sales-foundati' },
+          { title: 'watsonx.data integration Data Observability Sales Foundation', img: 'watsonx-data-integration-data-observability-sales-f.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-data-integration-data-observability-sales-f' },
+          { title: 'Enterprise Design Thinking Practitioner', img: 'enterprise-design-thinking-practitioner.png', link: 'https://www.credly.com/org/ibm/badge/enterprise-design-thinking-practitioner' },
+          { title: 'watsonx Orchestrate Sales Foundation', img: 'watsonx-orchestrate-sales-foundation.png', link: 'https://www.credly.com/org/ibm/badge/watsonx-orchestrate-sales-foundation' },
+          { title: 'Accenture Strategy Consulting', img: 'accenture-consulting.png', link: 'https://www.forage.com/virtual-internships/theme/HjtS8N9W4zX6R4Z9b/Accenture-North-America-Strategy-Virtual-Experience-Program' }
         ]
       }
     },
