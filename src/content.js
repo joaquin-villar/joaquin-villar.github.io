@@ -150,13 +150,14 @@ export const translations = {
         ]
       },
       windEnergy: {
-        title: 'Wind Energy Forecasting',
-        tech: 'Python, LSTM, Scikit-learn, Pandas',
+        title: 'Wind Energy & Grid Stability',
+        tech: 'Python, ML, Responsible Data Science',
+        img: '/wind-energy.png',
         items: [
-          'Developed a deep learning model using Long Short-Term Memory (LSTM) networks to predict wind power generation.',
-          'Conducted extensive EDA and feature engineering on meteorological data to improve model accuracy by 15%.',
-          'Evaluated performance using MAE and RMSE metrics, comparing results with traditional baseline models.',
-          'Researched and implemented state-of-the-art architectures for time-series forecasting in renewable energy.'
+          'Conducted an empirical analysis of wind energy impact on UK Grid stability (Module INF216).',
+          'Developed machine learning models to predict frequency instability thresholds in renewable-heavy systems.',
+          'Leveraged advanced time-series analysis to identify critical frequency deviation patterns.',
+          'Explored the trade-offs between renewable penetration and long-term grid reliability.'
         ],
         links: [
           { type: 'demo', url: '/wind-energy-research.pdf' }
@@ -420,13 +421,14 @@ export const translations = {
         ]
       },
       windEnergy: {
-        title: 'Predicción de Energía Eólica',
-        tech: 'Python, LSTM, Scikit-learn, Pandas',
+        title: 'Energía Eólica y Estabilidad de Red',
+        tech: 'Python, ML, Ciencia de Datos Responsable',
+        img: '/wind-energy.png',
         items: [
-          'Desarrollé un modelo de aprendizaje profundo utilizando redes LSTM para predecir la generación de energía eólica.',
-          'Realicé un análisis exploratorio de datos (EDA) y una ingeniería de características exhaustiva para mejorar la precisión en un 15%.',
-          'Evalué el rendimiento utilizando métricas MAE y RMSE, comparando resultados con modelos base tradicionales.',
-          'Investigué e implementé arquitecturas de vanguardia para el pronóstico de series temporales en energías renovables.'
+          'Realicé un análisis empírico del impacto de la energía eólica en la estabilidad de la red del Reino Unido (INF216).',
+          'Desarrollé modelos de ML para predecir umbrales de inestabilidad de frecuencia en sistemas renovables.',
+          'Utilicé análisis avanzado de series temporales para identificar patrones críticos de desviación de frecuencia.',
+          'Exploré el equilibrio entre la penetración de renovables y la confiabilidad a largo plazo de la red.'
         ],
         links: [
           { type: 'demo', url: '/wind-energy-research.pdf' }
@@ -690,13 +692,14 @@ export const translations = {
         ]
       },
       windEnergy: {
-        title: 'Previsione Energia Eolica',
-        tech: 'Python, LSTM, Scikit-learn, Pandas',
+        title: 'Energia Eolica e Stabilità di Rete',
+        tech: 'Python, ML, Data Science Responsabile',
+        img: '/wind-energy.png',
         items: [
-          'Sviluppato un modello di deep learning utilizzando reti LSTM per prevedere la generazione di energia eolica.',
-          'Condotto EDA e feature engineering approfonditi sui dati meteorologici per migliorare l\'accuratezza del modello del 15%.',
-          'Valutate le prestazioni utilizzando le metriche MAE e RMSE, confrontando i risultati con i modelli di base tradizionali.',
-          'Ricercato e implementato architetture all\'avanguardia per la previsione di serie temporali nell\'energia rinnovabile.'
+          'Condotto un\'analisi empirica dell\'impatto dell\'energia eolica sulla stabilità della rete del Regno Unito (INF216).',
+          'Sviluppato modelli di ML per prevedere le soglie di instabilità di frequenza nei sistemi rinnovabili.',
+          'Utilizzato analisi avanzate di serie temporali per identificare pattern critici di deviazione della frequenza.',
+          'Esplorato l\'equilibrio tra la penetrazione delle rinnovabili e la stabilità a lungo termine della rete.'
         ],
         links: [
           { type: 'demo', url: '/wind-energy-research.pdf' }
