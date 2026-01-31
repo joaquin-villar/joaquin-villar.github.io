@@ -1,6 +1,6 @@
 // --- Configuration ---
 export const CONFIG = {
-  showOpenToWork: true
+  showOpenToWork: false
 };
 
 export const translations = {
@@ -14,7 +14,8 @@ export const translations = {
       projects: 'Projects',
       education: 'Education',
       giveback: 'GiveBack',
-      contact: 'Contact'
+      contact: 'Contact',
+      langLabel: 'My Languages'
     },
     hero: {
       title: 'Data Scientist | AI & Cloud Solutions',
@@ -286,7 +287,8 @@ export const translations = {
       projects: 'Proyectos',
       education: 'Educación',
       giveback: 'GiveBack',
-      contact: 'Contacto'
+      contact: 'Contacto',
+      langLabel: 'Mis Idiomas'
     },
     hero: {
       title: 'Científico de Datos | AI & Cloud Solutions',
@@ -558,7 +560,8 @@ export const translations = {
       projects: 'Progetti',
       education: 'Istruzione',
       giveback: 'GiveBack',
-      contact: 'Contatto'
+      contact: 'Contatto',
+      langLabel: 'Le Mie Lingue'
     },
     hero: {
       title: 'Data Scientist | AI & Cloud Solutions',

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { translations } from './content';
+import { translations, CONFIG } from './content';
 import './App.css';
 
 // --- Helper Components ---
@@ -153,12 +153,15 @@ function App() {
               ))}
             </ul>
 
+            <div className="nav-separator"></div>
+
             <div className="nav-lang-switcher">
-              <button className={language === 'en' ? 'active' : ''} onClick={() => setLanguage('en')}>EN</button>
-              <span className="divider">|</span>
-              <button className={language === 'es' ? 'active' : ''} onClick={() => setLanguage('es')}>ES</button>
-              <span className="divider">|</span>
-              <button className={language === 'it' ? 'active' : ''} onClick={() => setLanguage('it')}>IT</button>
+              <span className="lang-label">{t.nav.langLabel}</span>
+              <div className="lang-options">
+                <button className={language === 'en' ? 'active' : ''} onClick={() => setLanguage('en')}>EN</button>
+                <button className={language === 'es' ? 'active' : ''} onClick={() => setLanguage('es')}>ES</button>
+                <button className={language === 'it' ? 'active' : ''} onClick={() => setLanguage('it')}>IT</button>
+              </div>
             </div>
           </div>
         </div>
@@ -195,9 +198,11 @@ function App() {
 
           <div className="hero-right">
             <div className="profile-wrapper animate">
-              <div className="open-to-work-badge">
-                {t.hero.openToWork}
-              </div>
+              {CONFIG.showOpenToWork && (
+                <div className="open-to-work-badge">
+                  {t.hero.openToWork}
+                </div>
+              )}
               <img
                 src={'/profile.png'}
                 alt="Joaquin Villar"
