@@ -12,9 +12,9 @@ export const translations = {
       about: 'About',
       experience: 'Experience',
       projects: 'Projects',
-      certs: 'Certs',
       education: 'Education',
       giveback: 'GiveBack',
+      skills: 'Skills',
       contact: 'Contact',
       langLabel: 'My Languages'
     },
@@ -303,9 +303,9 @@ export const translations = {
       about: 'Sobre Mí',
       experience: 'Experiencia',
       projects: 'Proyectos',
-      certs: 'Certificaciones',
       education: 'Educación',
       giveback: 'Contribuciones',
+      skills: 'Habilidades',
       contact: 'Contacto',
       langLabel: 'Mis Idiomas'
     },
@@ -594,9 +594,9 @@ export const translations = {
       about: 'Chi Sono',
       experience: 'Esperienza',
       projects: 'Progetti',
-      certs: 'Certificazioni',
       education: 'Istruzione',
       giveback: 'GiveBack',
+      skills: 'Competenze',
       contact: 'Contatto',
       langLabel: 'Le Mie Lingue'
     },
