@@ -144,7 +144,7 @@ function App() {
 
           <div className={`nav-content ${menuOpen ? 'open' : ''}`}>
             <ul className="nav-links">
-              {['home', 'about', 'experience', 'projects', 'education', 'leadership', 'contact'].map((item) => (
+              {['home', 'about', 'experience', 'projects', 'leadership', 'contact'].map((item) => (
                 <li key={item}>
                   <a onClick={() => scrollToSection(item === 'home' ? 'hero' : item)}>
                     {t.nav[item]}
@@ -232,6 +232,25 @@ function App() {
         </div>
       </section>
 
+      {/* Education Section - Moved Here */}
+      <section className="section alt-bg" style={{ paddingTop: 0 }} id="education">
+        <div className="container">
+          <SectionHeader title={t.education.title} />
+          <div className="education-card animate">
+            <div className="edu-header">
+              <h3>{t.education.degree}</h3>
+              <span className="date-badge">{t.education.period}</span>
+            </div>
+            <p className="university">{t.education.university}</p>
+            <p className="grade">{t.education.grade}</p>
+            <hr style={{ margin: '2rem 0', opacity: 0.2 }} />
+            <p className="coursework">
+              <strong>{t.education.coursework}</strong> {t.education.courses}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Projects Section */}
       <section className="section" id="projects">
         <div className="container">
@@ -284,25 +303,6 @@ function App() {
               links={t.projects.windEnergy.links}
               img={t.projects.windEnergy.img}
             />
-          </div>
-        </div>
-      </section>
-
-      {/* Education Section */}
-      <section className="section alt-bg" id="education">
-        <div className="container">
-          <SectionHeader title={t.education.title} />
-          <div className="education-card animate">
-            <div className="edu-header">
-              <h3>{t.education.degree}</h3>
-              <span className="date-badge">{t.education.period}</span>
-            </div>
-            <p className="university">{t.education.university}</p>
-            <p className="grade">{t.education.grade}</p>
-            <hr style={{ margin: '2rem 0', opacity: 0.2 }} />
-            <p className="coursework">
-              <strong>{t.education.coursework}</strong> {t.education.courses}
-            </p>
           </div>
         </div>
       </section>

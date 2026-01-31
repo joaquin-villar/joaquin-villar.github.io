@@ -150,14 +150,17 @@ export const translations = {
         ]
       },
       windEnergy: {
-        title: 'Wind Energy Research',
-        tech: 'Data Science, Renewable Energy, Statistics',
+        title: 'Wind Energy Forecasting',
+        tech: 'Python, LSTM, Scikit-learn, Pandas',
         items: [
-          'Conducted research on wind energy optimization and sustainability',
-          'Applied machine learning models for energy production forecasting',
-          'Analyzed meteorological data to identify optimal turbine placement'
+          'Developed a deep learning model using Long Short-Term Memory (LSTM) networks to predict wind power generation.',
+          'Conducted extensive EDA and feature engineering on meteorological data to improve model accuracy by 15%.',
+          'Evaluated performance using MAE and RMSE metrics, comparing results with traditional baseline models.',
+          'Researched and implemented state-of-the-art architectures for time-series forecasting in renewable energy.'
         ],
-        links: []
+        links: [
+          { type: 'demo', url: '/wind-energy-research.pdf' }
+        ]
       }
     },
     education: {
@@ -417,14 +420,17 @@ export const translations = {
         ]
       },
       windEnergy: {
-        title: 'Investigación de Energía Eólica',
-        tech: 'Ciencia de Datos, Energía Renovable',
+        title: 'Predicción de Energía Eólica',
+        tech: 'Python, LSTM, Scikit-learn, Pandas',
         items: [
-          'Investigación sobre optimización de energía eólica',
-          'Apliqué modelos de ML para pronóstico de producción',
-          'Analicé datos meteorológicos'
+          'Desarrollé un modelo de aprendizaje profundo utilizando redes LSTM para predecir la generación de energía eólica.',
+          'Realicé un análisis exploratorio de datos (EDA) y una ingeniería de características exhaustiva para mejorar la precisión en un 15%.',
+          'Evalué el rendimiento utilizando métricas MAE y RMSE, comparando resultados con modelos base tradicionales.',
+          'Investigué e implementé arquitecturas de vanguardia para el pronóstico de series temporales en energías renovables.'
         ],
-        links: []
+        links: [
+          { type: 'demo', url: '/wind-energy-research.pdf' }
+        ]
       }
     },
     education: {
@@ -684,14 +690,17 @@ export const translations = {
         ]
       },
       windEnergy: {
-        title: 'Ricerca Energia Eolica',
-        tech: 'Data Science, Energia Rinnovabile',
+        title: 'Previsione Energia Eolica',
+        tech: 'Python, LSTM, Scikit-learn, Pandas',
         items: [
-          'Ho condotto ricerca sull\'ottimizzazione dell\'energia eolica',
-          'Ho applicato modelli di ML per previsione produzione',
-          'Ho analizzato dati meteorologici'
+          'Sviluppato un modello di deep learning utilizzando reti LSTM per prevedere la generazione di energia eolica.',
+          'Condotto EDA e feature engineering approfonditi sui dati meteorologici per migliorare l\'accuratezza del modello del 15%.',
+          'Valutate le prestazioni utilizzando le metriche MAE e RMSE, confrontando i risultati con i modelli di base tradizionali.',
+          'Ricercato e implementato architetture all\'avanguardia per la previsione di serie temporali nell\'energia rinnovabile.'
         ],
-        links: []
+        links: [
+          { type: 'demo', url: '/wind-energy-research.pdf' }
+        ]
       }
     },
     education: {
