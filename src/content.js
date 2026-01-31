@@ -110,6 +110,7 @@ export const translations = {
       portfolio: {
         title: 'Personal Portfolio Website',
         tech: 'React, JavaScript, CSS',
+        img: '/portfolio-preview.png',
         items: [
           'Built modern, responsive portfolio showcasing professional experience and projects',
           'Implemented animations, interactive UI components and multi-language support',
@@ -122,6 +123,7 @@ export const translations = {
       newsClassifier: {
         title: 'LoRA News Classifier',
         tech: 'NLP, PEFT (LoRA), Streamlit, Hugging Face',
+        img: '/news-classifier.png',
         items: [
           'Fine-tuned a Large Language Model using Low-Rank Adaptation (LoRA) for news categorization',
           'Deployed the model as an interactive web app using Streamlit',
@@ -135,6 +137,7 @@ export const translations = {
       dssSociety: {
         title: 'Data Science Society Website',
         tech: 'React, Web Development, Vercel',
+        img: '/dss-website.png',
         items: [
           'Designed and developed the official website for 120+ society members',
           'Integrated event management and member communication systems',
@@ -147,6 +150,7 @@ export const translations = {
       limaMapping: {
         title: 'Lima Projects Mapping',
         tech: 'Geospatial Data, Visualization, Vercel',
+        img: '/lima-mapping.png',
         items: [
           'Interactive map visualization of infrastructure projects in Lima',
           'Provides insights into urban development and resource allocation',
@@ -383,6 +387,7 @@ export const translations = {
       portfolio: {
         title: 'Sitio Web de Portafolio Personal',
         tech: 'React, JavaScript, CSS',
+        img: '/portfolio-preview.png',
         items: [
           'Construí un portafolio moderno y responsive',
           'Implementé animaciones y soporte multilingüe',
@@ -395,6 +400,7 @@ export const translations = {
       newsClassifier: {
         title: 'Clasificador de Noticias LoRA',
         tech: 'NLP, PEFT (LoRA), Streamlit, Hugging Face',
+        img: '/news-classifier.png',
         items: [
           'Afiné un LLM usando Adaptación de Bajo Rango (LoRA)',
           'Desplegué el modelo como app web interactiva en Streamlit',
@@ -408,6 +414,7 @@ export const translations = {
       dssSociety: {
         title: 'Sitio Web Data Science Society',
         tech: 'React, Desarrollo Web, Vercel',
+        img: '/dss-website.png',
         items: [
           'Diseñé y desarrollé el sitio web oficial para más de 120 miembros',
           'Integré sistemas de gestión de eventos',
@@ -420,6 +427,7 @@ export const translations = {
       limaMapping: {
         title: 'Mapeo de Proyectos en Lima',
         tech: 'Datos Geoespaciales, Visualización',
+        img: '/lima-mapping.png',
         items: [
           'Visualización interactiva de proyectos de infraestructura en Lima',
           'Proporciona insights sobre desarrollo urbano',
@@ -656,6 +664,7 @@ export const translations = {
       portfolio: {
         title: 'Sito Web Portfolio Personale',
         tech: 'React, JavaScript, CSS',
+        img: '/portfolio-preview.png',
         items: [
           'Ho costruito un portfolio moderno e responsive',
           'Ho implementato animazioni e supporto multilingue',
@@ -668,6 +677,7 @@ export const translations = {
       newsClassifier: {
         title: 'Classificatore di Notizie LoRA',
         tech: 'NLP, PEFT (LoRA), Streamlit, Hugging Face',
+        img: '/news-classifier.png',
         items: [
           'Ho perfezionato un LLM usando Low-Rank Adaptation (LoRA)',
           'Ho distribuito il modello come app web interattiva su Streamlit',
@@ -681,6 +691,7 @@ export const translations = {
       dssSociety: {
         title: 'Sito Web Data Science Society',
         tech: 'React, Sviluppo Web, Vercel',
+        img: '/dss-website.png',
         items: [
           'Ho progettato e sviluppato il sito ufficiale per oltre 120 membri',
           'Ho integrato sistemi di gestione eventi',
@@ -693,6 +704,7 @@ export const translations = {
       limaMapping: {
         title: 'Mappatura Progetti Lima',
         tech: 'Dati Geospaziali, Visualizzazione',
+        img: '/lima-mapping.png',
         items: [
           'Visualizzazione interattiva dei progetti infrastrutturali a Lima',
           'Fornisce approfondimenti sullo sviluppo urbano',
