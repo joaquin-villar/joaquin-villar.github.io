@@ -31,7 +31,7 @@ export const translations = {
               'Built a sustainable data integration asset leveraging Apache Iceberg tables and Watsonx.ai to enrich and query the metadata of unstructured financial statements within IBM Cloud. This reduced evaluation time in the mortgage risk assessment process by 18% and LLM hallucination risk by 30% for a leading financial services client. ',
               'Designed and deployed a Multimodal RAG AI Agent to query the CSM business unit’s deployments dashboard. The agent autonomously extracts key insights, generates context aware executive summaries and distributes them to the respective stakeholders via email, saving 3-4 hours every week in internal debrief meetings.',
               'Delivered multiple product demos across AI & Analytics Consulting and Technical Sales, showcasing deployed use cases and IBM’s go-to-market platforms through effective use of the client engagement model and storytelling',
-              'Supported asset-based consulting engagement with the conversational banking unit of a leading financial services provider, gaining exposure to the design and deployment of AI Assistant user journeys and the development of an Agentic AI strategy.' 
+              'Supported asset-based consulting engagement with the conversational banking unit of a leading financial services provider, gaining exposure to the design and deployment of AI Assistant user journeys and the development of an Agentic AI strategy.'
             ]
           }
         ]
@@ -89,6 +89,19 @@ export const translations = {
     },
     projects: {
       title: 'Projects',
+      greenhouse: {
+        title: 'Greenhouse Digital Shadow',
+        tech: 'SNNs, AWS Lambda, IoT Core, Serverless',
+        items: [
+          'Implemented a near real-time digital shadow for greenhouse monitoring using Spiking Neural Networks (SNNs)',
+          'Built a serverless architecture on AWS utilizing IoT Core, Lambda, and DynamoDB for sensor data processing',
+          'Integrated multi-sensor anomaly detection to monitor environment health and trigger alerts',
+          'Developed an interactive dashboard for high-frequency data visualization and insights'
+        ],
+        links: [
+          { type: 'demo', url: 'https://greenhouse-digital-twin-dashboard.vercel.app/' }
+        ]
+      },
       portfolio: {
         title: 'Personal Portfolio Website',
         tech: 'React, JavaScript, CSS',
@@ -213,7 +226,7 @@ export const translations = {
         ]
       }
     },
-    
+
     // --- UPDATED SKILLS SECTION ---
     skills: {
       title: 'Skills & Technologies',
@@ -232,12 +245,12 @@ export const translations = {
       certifications: {
         title: 'Certifications',
         items: [
-           { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-           { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
-           { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
-           { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-           { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
-           { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
+          { img: 'ibm-internship.png', title: 'IBM Internship Program' },
+          { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
+          { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
+          { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
+          { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
+          { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
         ]
       }
     },
@@ -348,6 +361,19 @@ export const translations = {
     },
     projects: {
       title: 'Proyectos',
+      greenhouse: {
+        title: 'Gemelo Digital de Invernadero',
+        tech: 'SNNs, AWS Lambda, IoT Core, Serverless',
+        items: [
+          'Implementé un gemelo digital en tiempo casi real para el monitoreo de invernaderos usando Redes Neuronales de Impulsos (SNNs)',
+          'Construí una arquitectura serverless en AWS utilizando IoT Core, Lambda y DynamoDB para el procesamiento de datos de sensores',
+          'Integré detección de anomalías multi-sensor para monitorear la salud ambiental y activar alertas',
+          'Desarrollé un panel interactivo para visualización de datos de alta frecuencia e insights'
+        ],
+        links: [
+          { type: 'demo', url: 'https://greenhouse-digital-twin-dashboard.vercel.app/' }
+        ]
+      },
       portfolio: {
         title: 'Sitio Web de Portafolio Personal',
         tech: 'React, JavaScript, CSS',
@@ -357,7 +383,7 @@ export const translations = {
           'Desplegado usando GitHub Pages con CI/CD'
         ],
         links: [
-           { type: 'github', url: 'https://github.com/joaquin-villar/joaquinvillar.github.io' }
+          { type: 'github', url: 'https://github.com/joaquin-villar/joaquinvillar.github.io' }
         ]
       },
       newsClassifier: {
@@ -420,56 +446,56 @@ export const translations = {
     leadership: {
       title: 'Liderazgo y Voluntariado',
       dss: {
-          roles: [
-            {
-              date: 'Septiembre 2025 – Presente',
-              title: 'Data Science Society - Responsable de Educación',
-              location: 'University of Sheffield',
-              items: [
-                'Lideré proyectos de datos pro bono con 2 organizaciones locales',
-                'Desarrollé agente de cumplimiento BSA para consultoría de construcción',
-                'Creé estrategia de optimización de alcance para caridad que apoya a sobrevivientes de esclavitud moderna'
-              ]
-            },
-            {
-              date: 'Febrero 2024 – Mayo 2025',
-              title: 'Data Science Society - Fundador y Presidente',
-              location: 'University of Sheffield',
-              items: [
-                'Fundé y presidí la sociedad, impulsando el crecimiento de membresía mediante alcance dirigido',
-                'Gestioné presupuesto financiado por estudiantes y aseguré financiamiento adicional',
-                'Entregué la mejor experiencia universitaria para más de 120 estudiantes'
-              ]
-            }
-          ]
+        roles: [
+          {
+            date: 'Septiembre 2025 – Presente',
+            title: 'Data Science Society - Responsable de Educación',
+            location: 'University of Sheffield',
+            items: [
+              'Lideré proyectos de datos pro bono con 2 organizaciones locales',
+              'Desarrollé agente de cumplimiento BSA para consultoría de construcción',
+              'Creé estrategia de optimización de alcance para caridad que apoya a sobrevivientes de esclavitud moderna'
+            ]
+          },
+          {
+            date: 'Febrero 2024 – Mayo 2025',
+            title: 'Data Science Society - Fundador y Presidente',
+            location: 'University of Sheffield',
+            items: [
+              'Fundé y presidí la sociedad, impulsando el crecimiento de membresía mediante alcance dirigido',
+              'Gestioné presupuesto financiado por estudiantes y aseguré financiamiento adicional',
+              'Entregué la mejor experiencia universitaria para más de 120 estudiantes'
+            ]
+          }
+        ]
       },
       genAI: {
-          roles: [
-            {
-              date: 'Julio 2025 – Septiembre 2025',
-              title: 'GenAI Society - Líder de Evento de Pasantía de Verano',
-              location: 'IBM',
-              items: [
-                'Organicé evento de medio día \'IA en Medios\' para más de 50 Profesionales Jóvenes',
-                'Presenté SMEs y Director General como oradores invitados',
-                'Primer evento de este tipo en IBM UKI'
-              ]
-            }
-          ]
+        roles: [
+          {
+            date: 'Julio 2025 – Septiembre 2025',
+            title: 'GenAI Society - Líder de Evento de Pasantía de Verano',
+            location: 'IBM',
+            items: [
+              'Organicé evento de medio día \'IA en Medios\' para más de 50 Profesionales Jóvenes',
+              'Presenté SMEs y Director General como oradores invitados',
+              'Primer evento de este tipo en IBM UKI'
+            ]
+          }
+        ]
       },
       siemens: {
-          roles: [
-            {
-              date: 'Octubre 2024 – Mayo 2025',
-              title: 'Asesor de Transformación Digital',
-              location: 'Zona de Innovación Digital de Siemens',
-              items: [
-                'Mostré el potencial de análisis de datos de transmisión en vivo y software CAD',
-                'Demostré el Gemelo Digital de la Planta Piloto Diamond',
-                'El único de su tipo en cualquier universidad del Reino Unido'
-              ]
-            }
-          ]
+        roles: [
+          {
+            date: 'Octubre 2024 – Mayo 2025',
+            title: 'Asesor de Transformación Digital',
+            location: 'Zona de Innovación Digital de Siemens',
+            items: [
+              'Mostré el potencial de análisis de datos de transmisión en vivo y software CAD',
+              'Demostré el Gemelo Digital de la Planta Piloto Diamond',
+              'El único de su tipo en cualquier universidad del Reino Unido'
+            ]
+          }
+        ]
       }
     },
 
@@ -491,12 +517,12 @@ export const translations = {
       certifications: {
         title: 'Certificaciones',
         items: [
-           { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-           { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
-           { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
-           { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-           { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
-           { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
+          { img: 'ibm-internship.png', title: 'IBM Internship Program' },
+          { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
+          { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
+          { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
+          { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
+          { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
         ]
       }
     },
@@ -607,6 +633,19 @@ export const translations = {
     },
     projects: {
       title: 'Progetti',
+      greenhouse: {
+        title: 'Digital Twin Serra',
+        tech: 'SNNs, AWS Lambda, IoT Core, Serverless',
+        items: [
+          'Implementato un gemello digitale in tempo quasi reale per il monitoraggio delle serre utilizzando Spiking Neural Networks (SNNs)',
+          'Costruita un\'architettura serverless su AWS utilizzando IoT Core, Lambda e DynamoDB per l\'elaborazione dei dati dei sensori',
+          'Integrato il rilevamento delle anomalie multi-sensore per monitorare la salute dell\'ambiente e attivare avvisi',
+          'Sviluppato un dashboard interattivo per la visualizzazione di dati ad alta frequenza e insight'
+        ],
+        links: [
+          { type: 'demo', url: 'https://greenhouse-digital-twin-dashboard.vercel.app/' }
+        ]
+      },
       portfolio: {
         title: 'Sito Web Portfolio Personale',
         tech: 'React, JavaScript, CSS',
@@ -616,7 +655,7 @@ export const translations = {
           'Distribuito usando GitHub Pages con CI/CD'
         ],
         links: [
-           { type: 'github', url: 'https://github.com/joaquin-villar/joaquinvillar.github.io' }
+          { type: 'github', url: 'https://github.com/joaquin-villar/joaquinvillar.github.io' }
         ]
       },
       newsClassifier: {
@@ -679,56 +718,56 @@ export const translations = {
     leadership: {
       title: 'Leadership e Volontariato',
       dss: {
-          roles: [
-            {
-              date: 'Settembre 2025 – Presente',
-              title: 'Data Science Society - Responsabile Educazione',
-              location: 'Università di Sheffield',
-              items: [
-                'Ho guidato progetti dati pro bono con 2 organizzazioni locali',
-                'Ho sviluppato agente di conformità BSA per consulenza edile',
-                'Ho creato strategia di ottimizzazione outreach per carità che supporta sopravvissuti alla schiavitù moderna'
-              ]
-            },
-            {
-              date: 'Febbraio 2024 – Maggio 2025',
-              title: 'Data Science Society - Fondatore e Presidente',
-              location: 'Università di Sheffield',
-              items: [
-                'Ho fondato e presieduto la società, guidando la crescita dei membri attraverso outreach mirato',
-                'Ho gestito budget finanziato da studenti e assicurato finanziamenti aggiuntivi',
-                'Ho fornito la migliore esperienza universitaria per oltre 120 studenti'
-              ]
-            }
-          ]
+        roles: [
+          {
+            date: 'Settembre 2025 – Presente',
+            title: 'Data Science Society - Responsabile Educazione',
+            location: 'Università di Sheffield',
+            items: [
+              'Ho guidato progetti dati pro bono con 2 organizzazioni locali',
+              'Ho sviluppato agente di conformità BSA per consulenza edile',
+              'Ho creato strategia di ottimizzazione outreach per carità che supporta sopravvissuti alla schiavitù moderna'
+            ]
+          },
+          {
+            date: 'Febbraio 2024 – Maggio 2025',
+            title: 'Data Science Society - Fondatore e Presidente',
+            location: 'Università di Sheffield',
+            items: [
+              'Ho fondato e presieduto la società, guidando la crescita dei membri attraverso outreach mirato',
+              'Ho gestito budget finanziato da studenti e assicurato finanziamenti aggiuntivi',
+              'Ho fornito la migliore esperienza universitaria per oltre 120 studenti'
+            ]
+          }
+        ]
       },
       genAI: {
-          roles: [
-            {
-              date: 'Luglio 2025 – Settembre 2025',
-              title: 'GenAI Society - Responsabile Evento Stage Estivo',
-              location: 'IBM',
-              items: [
-                'Ho organizzato evento di mezza giornata \'AI nei Media\' per oltre 50 Giovani Professionisti',
-                'Ho presentato SME e Direttore Generale come relatori ospiti',
-                'Primo evento del suo genere in IBM UKI'
-              ]
-            }
-          ]
+        roles: [
+          {
+            date: 'Luglio 2025 – Settembre 2025',
+            title: 'GenAI Society - Responsabile Evento Stage Estivo',
+            location: 'IBM',
+            items: [
+              'Ho organizzato evento di mezza giornata \'AI nei Media\' per oltre 50 Giovani Professionisti',
+              'Ho presentato SME e Direttore Generale come relatori ospiti',
+              'Primo evento del suo genere in IBM UKI'
+            ]
+          }
+        ]
       },
       siemens: {
-          roles: [
-            {
-              date: 'Ottobre 2024 – Maggio 2025',
-              title: 'Consulente Trasformazione Digitale',
-              location: 'Zona di Innovazione Digitale Siemens',
-              items: [
-                'Ho mostrato il potenziale dell\'analisi dati in streaming live e software CAD',
-                'Ho dimostrato il Gemello Digitale della Diamond Pilot Plant',
-                'L\'unico del suo genere in qualsiasi università del Regno Unito'
-              ]
-            }
-          ]
+        roles: [
+          {
+            date: 'Ottobre 2024 – Maggio 2025',
+            title: 'Consulente Trasformazione Digitale',
+            location: 'Zona di Innovazione Digitale Siemens',
+            items: [
+              'Ho mostrato il potenziale dell\'analisi dati in streaming live e software CAD',
+              'Ho dimostrato il Gemello Digitale della Diamond Pilot Plant',
+              'L\'unico del suo genere in qualsiasi università del Regno Unito'
+            ]
+          }
+        ]
       }
     },
 
@@ -750,12 +789,12 @@ export const translations = {
       certifications: {
         title: 'Certificazioni',
         items: [
-           { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-           { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
-           { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
-           { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-           { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
-           { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
+          { img: 'ibm-internship.png', title: 'IBM Internship Program' },
+          { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
+          { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
+          { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
+          { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
+          { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
         ]
       }
     },

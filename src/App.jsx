@@ -233,6 +233,13 @@ function App() {
           <SectionHeader title={t.projects.title} />
           <div className="projects-grid">
             <ProjectCard
+              title={t.projects.greenhouse.title}
+              tech={t.projects.greenhouse.tech}
+              items={t.projects.greenhouse.items}
+              links={t.projects.greenhouse.links}
+            />
+
+            <ProjectCard
               title={t.projects.portfolio.title}
               tech={t.projects.portfolio.tech}
               items={t.projects.portfolio.items}
