@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { translations, CONFIG } from './content';
 import './App.css';
 
@@ -82,9 +82,12 @@ const ProjectCard = ({ title, tech, items, links, img }) => (
 function App() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [language, setLanguage] = useState('en');
+
+  const langRef = useRef(null);
 
   const t = useMemo(() => translations[language], [language]);
 
@@ -110,8 +113,19 @@ function App() {
       });
     };
 
+    const handleClickOutside = (event) => {
+      if (langRef.current && !langRef.current.contains(event.target)) {
+        setLangMenuOpen(false);
+      }
+    };
+
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
   }, []);
 
   const scrollToSection = (id) => {
@@ -123,6 +137,7 @@ function App() {
       window.scrollTo({ top: offsetPosition, behavior: "smooth" });
     }
     setMenuOpen(false);
+    setLangMenuOpen(false);
   };
 
   const scrollToTop = () => {
@@ -156,11 +171,18 @@ function App() {
             <div className="nav-separator"></div>
 
             <div className="nav-lang-switcher">
-              <span className="lang-label">{t.nav.langLabel}</span>
-              <div className="lang-options">
-                <button className={language === 'en' ? 'active' : ''} onClick={() => setLanguage('en')}>EN</button>
-                <button className={language === 'es' ? 'active' : ''} onClick={() => setLanguage('es')}>ES</button>
-                <button className={language === 'it' ? 'active' : ''} onClick={() => setLanguage('it')}>IT</button>
+              <div className={`lang-dropdown ${langMenuOpen ? 'open' : ''}`} ref={langRef}>
+                <button className="dropdown-trigger" onClick={() => setLangMenuOpen(!langMenuOpen)}>
+                  {t.nav.langLabel}
+                  <svg className="chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div className="dropdown-content">
+                  <button className={language === 'en' ? 'active' : ''} onClick={() => { setLanguage('en'); setLangMenuOpen(false); }}>English</button>
+                  <button className={language === 'es' ? 'active' : ''} onClick={() => { setLanguage('es'); setLangMenuOpen(false); }}>Español</button>
+                  <button className={language === 'it' ? 'active' : ''} onClick={() => { setLanguage('it'); setLangMenuOpen(false); }}>Italiano</button>
+                </div>
               </div>
             </div>
           </div>
