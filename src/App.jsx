@@ -30,8 +30,13 @@ const ExperienceCard = ({ roles }) => (
   </div>
 );
 
-const ProjectCard = ({ title, tech, items, links }) => (
+const ProjectCard = ({ title, tech, items, links, img }) => (
   <div className="project-card animate">
+    {img && (
+      <div className="card-image-wrapper">
+        <img src={img} alt={title} className="card-image" />
+      </div>
+    )}
     <div className="card-header">
       <h3 className="highlight">{title}</h3>
       <div className="card-links">
@@ -237,6 +242,7 @@ function App() {
               tech={t.projects.greenhouse.tech}
               items={t.projects.greenhouse.items}
               links={t.projects.greenhouse.links}
+              img={t.projects.greenhouse.img}
             />
 
             <ProjectCard
@@ -244,6 +250,7 @@ function App() {
               tech={t.projects.portfolio.tech}
               items={t.projects.portfolio.items}
               links={t.projects.portfolio.links}
+              img={t.projects.portfolio.img}
             />
 
             <ProjectCard
@@ -251,6 +258,7 @@ function App() {
               tech={t.projects.newsClassifier.tech}
               items={t.projects.newsClassifier.items}
               links={t.projects.newsClassifier.links}
+              img={t.projects.newsClassifier.img}
             />
 
             <ProjectCard
@@ -258,6 +266,7 @@ function App() {
               tech={t.projects.dssSociety.tech}
               items={t.projects.dssSociety.items}
               links={t.projects.dssSociety.links}
+              img={t.projects.dssSociety.img}
             />
 
             <ProjectCard
@@ -265,6 +274,7 @@ function App() {
               tech={t.projects.limaMapping.tech}
               items={t.projects.limaMapping.items}
               links={t.projects.limaMapping.links}
+              img={t.projects.limaMapping.img}
             />
 
             <ProjectCard
@@ -272,6 +282,7 @@ function App() {
               tech={t.projects.windEnergy.tech}
               items={t.projects.windEnergy.items}
               links={t.projects.windEnergy.links}
+              img={t.projects.windEnergy.img}
             />
           </div>
         </div>
@@ -310,6 +321,7 @@ function App() {
                     tech={role.location}
                     items={role.items}
                     links={[]}
+                    img={role.img}
                   />
                 )) : null}
               </div>

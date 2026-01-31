@@ -25,13 +25,13 @@ export const translations = {
         roles: [
           {
             date: 'June 2025 – September 2025',
-            title: 'CSM Solutions Architect Summer Intern - IBM',
+            title: 'CSM Solutions Architect, Technology Group Intern - IBM',
             location: 'London, UK',
             items: [
-              'Built a sustainable data integration asset leveraging Apache Iceberg tables and Watsonx.ai to enrich and query the metadata of unstructured financial statements within IBM Cloud. This reduced evaluation time in the mortgage risk assessment process by 18% and LLM hallucination risk by 30% for a leading financial services client. ',
-              'Designed and deployed a Multimodal RAG AI Agent to query the CSM business unit’s deployments dashboard. The agent autonomously extracts key insights, generates context aware executive summaries and distributes them to the respective stakeholders via email, saving 3-4 hours every week in internal debrief meetings.',
-              'Delivered multiple product demos across AI & Analytics Consulting and Technical Sales, showcasing deployed use cases and IBM’s go-to-market platforms through effective use of the client engagement model and storytelling',
-              'Supported asset-based consulting engagement with the conversational banking unit of a leading financial services provider, gaining exposure to the design and deployment of AI Assistant user journeys and the development of an Agentic AI strategy.'
+              'Built a sustainable data integration asset leveraging Apache Iceberg tables and Watsonx.ai to enrich and query the metadata of unstructured financial statements within IBM Cloud, reducing evaluation time in mortgage risk assessment by 18% and LLM hallucination risk by 30%.',
+              'Designed and deployed a Multimodal RAG AI Agent to query the CSM deployments dashboard, saving 3-4 hours every week by autonomously generating and distributing context-aware executive summaries.',
+              'Delivered multiple product demos across AI & Analytics Consulting and Technical Sales, showcasing IBM’s go-to-market platforms through effective storytelling and client engagement models.',
+              'Supported asset-based consulting for a leading financial services provider, gaining exposure to the design of AI Assistant user journeys and the development of an Agentic AI strategy.'
             ]
           }
         ]
@@ -40,13 +40,13 @@ export const translations = {
         roles: [
           {
             date: 'June 2024 – August 2024',
-            title: 'Loyalty CRM & Digital Sales Summer Intern - Corporación Primax S.A.',
+            title: 'Loyalty CRM & Digital Sales Intern - Corporación Primax S.A.',
             location: 'Lima, Perú',
             items: [
-              'Quantified market opportunity using RFM clustering on 5+ million records',
-              'Redesigned margin matrices to better reflect profitability across consumer groups',
-              'Designed managerial dashboard for Colombia division expansion',
-              'Developed automated One-Pager alerts for KPI monitoring'
+              'Quantified market opportunity using RFM clustering on 5+ million records to aid the digital sales 2024 Q4 strategy.',
+              'Redesigned margin matrices to better reflect profitability across consumer groups.',
+              'Designed and proposed a managerial dashboard for the Colombia division expansion.',
+              'Developed automated One-Pager alerts for KPI monitoring across the sales department.'
             ]
           }
         ]
@@ -58,8 +58,7 @@ export const translations = {
             title: 'Data Management Intern - Clínica Aviva / Grupo Intercorp',
             location: 'Lima, Perú',
             items: [
-              'Optimised pharmacy procurement process by integrating legacy ERP with RPA prototypes',
-              'Reduced decision-making contact hours by 37% between finance and procurement teams'
+              'Optimised the clinic pharmacy’s procurement process by integrating legacy ERP with RPA prototypes, reducing decision-making contact hours by 37% between finance and procurement teams.'
             ]
           }
         ]
@@ -71,7 +70,7 @@ export const translations = {
             title: 'Data Analytics Off-Cycle Intern - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Contributed to the company’s digital transformation...'
+              'Contributed to the company’s digital transformation by automating reporting processes and developing predictive models for customer churn.'
             ]
           },
           {
@@ -79,9 +78,7 @@ export const translations = {
             title: 'Process Innovation Summer Intern - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Built a sustainable data integration asset leveraging Apache Iceberg tables...',
-              'Designed and deployed a Multimodal RAG AI Agent...',
-              'Delivered multiple client demos...'
+              'Streamlined internal workflows by implementing low-code solutions and RPA bots, reducing manual effort in operational tasks by 25%.'
             ]
           }
         ]
@@ -90,13 +87,14 @@ export const translations = {
     projects: {
       title: 'Projects',
       greenhouse: {
-        title: 'Greenhouse Digital Shadow',
-        tech: 'SNNs, AWS Lambda, IoT Core, Serverless',
+        title: 'Greenhouse Digital Twin',
+        tech: 'SNNs, AWS Lambda, PostgreSQL RDS, Serverless',
+        img: '/greenhouse.png',
         items: [
-          'Implemented a near real-time digital shadow for greenhouse monitoring using Spiking Neural Networks (SNNs)',
-          'Built a serverless architecture on AWS utilizing IoT Core, Lambda, and DynamoDB for sensor data processing',
-          'Integrated multi-sensor anomaly detection to monitor environment health and trigger alerts',
-          'Developed an interactive dashboard for high-frequency data visualization and insights'
+          'Implemented a near real-time digital twin for greenhouse monitoring using Spiking Neural Networks (SNNs).',
+          'Built a serverless architecture on AWS utilizing Lambda, EventBridge, and PostgreSQL RDS for sensor data processing.',
+          'Integrated multi-sensor anomaly detection to monitor environment health and trigger alerts.',
+          'Developed an interactive dashboard for high-frequency data visualization and insights.'
         ],
         links: [
           { type: 'demo', url: 'https://greenhouse-digital-twin-dashboard.vercel.app/' }
@@ -167,9 +165,9 @@ export const translations = {
       degree: 'BSc Data Science',
       university: 'The University of Sheffield',
       period: 'September 2023 – June 2026',
-      grade: 'Expected: First-Class Honours',
+      grade: 'Expected: First-Class Honours (1st)',
       coursework: 'Relevant Coursework:',
-      courses: 'Inferential Statistics, AI & Machine Learning, Database Modelling, AI Ethics'
+      courses: 'Inferential Statistics, Building AI Applications, Database Modelling, AI Ethics, Machine Learning. Extracurriculars: Sheffield University Rowing Club, Data Science Society (Founder), Sheffield Technology Group (Co-Founder), Siemens DIZ Advisor, Italian Society, Wine Society (Treasurer)'
     },
     leadership: {
       title: 'Leadership & Volunteering',
@@ -177,22 +175,19 @@ export const translations = {
         roles: [
           {
             date: 'September 2025 – Present',
-            title: 'Data Science Society - Education Officer',
+            title: 'Outreach Officer & IBM Academic Ambassador',
             location: 'University of Sheffield',
             items: [
-              'Led pro bono data projects with 2 local organisations',
-              'Developed BSA compliance agent for construction consultancy',
-              'Created outreach optimisation strategy for charity supporting modern slavery survivors'
+              'Launched the first Data Dive competition securing £1000 in funding and partnership with Sirius Digital; guided 100+ students through machine learning projects.',
+              'Collaborated with IBM’s CSR team on an OBD2 Scanner data project involving 500k+ records to simulate predictive maintenance and build a monitoring dashboard.'
             ]
           },
           {
             date: 'February 2024 – May 2025',
-            title: 'Data Science Society - Founder & President',
+            title: 'Founder & President - Data Science Society',
             location: 'University of Sheffield',
             items: [
-              'Founded and chaired the society, driving membership growth through targeted outreach',
-              'Managed student-financed budget and secured additional funding',
-              'Delivered best university experience for 120+ students'
+              'Founded and chaired the society through 15 successful events for 108 members, driving membership growth through student-financed budgets and corporate sponsorships.'
             ]
           }
         ]
@@ -231,25 +226,25 @@ export const translations = {
     skills: {
       title: 'Skills & Technologies',
       programmingTools: {
-        title: 'Programming & Tools',
-        items: ['Python', 'R', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Docker', 'Excel & VBA']
+        title: 'Tools & Platforms',
+        items: ['Python', 'R Programming', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Watsonx Platform', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'Salesforce', 'MCP', 'OCR', 'AstraDB', 'Langgraph', 'Langchain', 'Generative AI', 'Docker', 'Postman']
       },
       cloudAI: {
-        title: 'Cloud & AI Platforms',
-        items: ['IBM Watsonx', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'Generative AI', 'RAG', 'Agent Development']
+        title: 'Core Competencies',
+        items: ['Data Modelling & Visualisation', 'Statistical Analysis', 'RAG', 'Agent Development', 'Prompt Engineering', 'Data Strategy & Governance', 'Leadership', 'Teamwork', 'Stakeholder Management', 'Design Thinking', 'Agile Scrum', 'Storytelling']
       },
       coreCompetencies: {
-        title: 'Core Competencies',
-        items: ['Data Modelling', 'Statistical Analysis', 'Data Strategy', 'Prompt Engineering', 'Stakeholder Management', 'Design Thinking', 'Agile Scrum', 'Storytelling']
+        title: 'Languages',
+        items: ['Spanish (Native)', 'English (Native Bilingual)', 'Italian (B1/B2)']
       },
       certifications: {
         title: 'Certifications',
         items: [
           { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-          { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
-          { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
+          { img: 'agentic-ai.png', title: 'IBM Consulting Agentic AI Foundations' },
+          { img: 'watsonx.png', title: 'Watsonx.ai Data Science and MLOps Sales' },
           { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-          { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
+          { img: 'design-thinking.png', title: 'Accenture Strategy Consulting' },
           { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
         ]
       }
@@ -297,13 +292,13 @@ export const translations = {
         roles: [
           {
             date: 'Junio 2025 – Septiembre 2025',
-            title: 'Pasante de Arquitecto de Soluciones CSM - IBM',
-            location: 'Londres, UK',
+            title: 'Pasante de Arquitecto de Soluciones CSM, Tecnología - IBM',
+            location: 'Londres, Reino Unido',
             items: [
-              'Construí un activo de integración de datos sostenible aprovechando tablas Apache Iceberg y Watsonx.ai, reduciendo el tiempo de evaluación en un 18% y el riesgo de alucinación de LLM en un 30%',
-              'Diseñé e implementé un Agente de IA RAG Multimodal que genera resúmenes ejecutivos de forma autónoma, ahorrando 3-4 horas semanales en reuniones internas',
-              'Entregué múltiples demos de cliente en Consultoría de IA y Análisis y Ventas Técnicas',
-              'Apoyé un compromiso de consultoría basado en activos con un proveedor líder de servicios financieros'
+              'Creé un activo de integración de datos sostenible mediante tablas Apache Iceberg y Watsonx.ai, reduciendo el tiempo de evaluación en un 18% y el riesgo de alucinación de LLM en un 30%.',
+              'Diseñé e implementé un Agente de IA RAG Multimodal para el panel de despliegue de CSM, ahorrando 3-4 horas semanales mediante la generación autónoma de resúmenes ejecutivos.',
+              'Entregué múltiples demostraciones de productos en Consultoría de IA y Ventas Técnicas, destacando las plataformas de IBM con un enfoque narrativo y de compromiso con el cliente.',
+              'Apoyé la consultoría basada en activos para un proveedor líder de servicios financieros, ganando experiencia en el diseño de viajes de usuario de Asistentes de IA y estrategias de IA Agéntica.'
             ]
           }
         ]
@@ -312,13 +307,13 @@ export const translations = {
         roles: [
           {
             date: 'Junio 2024 – Agosto 2024',
-            title: 'Pasante de CRM de Lealtad y Ventas Digitales - Corporación Primax S.A.',
+            title: 'Pasante de CRM de Fidelización y Ventas Digitales - Corporación Primax S.A.',
             location: 'Lima, Perú',
             items: [
-              'Cuantifiqué la oportunidad de mercado utilizando clustering RFM en más de 5 millones de registros',
-              'Rediseñé matrices de margen para reflejar mejor la rentabilidad entre grupos de consumidores',
-              'Diseñé un panel gerencial para la expansión de la división de Colombia',
-              'Desarrollé alertas automatizadas One-Pager para el monitoreo de KPIs'
+              'Cuantifiqué la oportunidad de mercado mediante clustering RFM con más de 5 millones de registros para apoyar la estrategia de ventas digitales del cuarto trimestre de 2024.',
+              'Rediseñé matrices de margen para reflejar mejor la rentabilidad por grupos de consumidores.',
+              'Diseñé y propuse un panel gerencial para la expansión de la división de Colombia.',
+              'Desarrollé alertas automatizadas de una página para el monitoreo de KPIs en el departamento de ventas.'
             ]
           }
         ]
@@ -327,11 +322,10 @@ export const translations = {
         roles: [
           {
             date: 'Junio 2023 – Septiembre 2023',
-            title: 'Pasante de Gestión de Datos - Clínica Aviva Grupo Intercorp',
+            title: 'Pasante de Gestión de Datos - Clínica Aviva / Grupo Intercorp',
             location: 'Lima, Perú',
             items: [
-              'Optimicé el proceso de adquisición de farmacia integrando ERP heredado con prototipos RPA',
-              'Reduje las horas de contacto para la toma de decisiones en un 37% entre los equipos de finanzas y adquisiciones'
+              'Optimicé el proceso de adquisición de la farmacia clínica integrando ERP heredado con prototipos RPA, reduciendo las horas de contacto para la toma de decisiones en un 37%.'
             ]
           }
         ]
@@ -340,20 +334,18 @@ export const translations = {
         roles: [
           {
             date: 'Septiembre 2022 – Diciembre 2022',
-            title: 'Data Analytics Off-Cycle Intern - Pacifico Seguros',
+            title: 'Pasante de Analítica de Datos (Off-Cycle) - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Contributed to the company’s digital transformation...'
+              'Contribuí a la transformación digital de la empresa automatizando procesos de reporte y desarrollando modelos predictivos de fuga de clientes.'
             ]
           },
           {
             date: 'Junio 2022 – Septiembre 2022',
-            title: 'Process Innovation Summer Intern - Pacifico Seguros',
+            title: 'Pasante de Innovación de Procesos - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Built a sustainable data integration asset leveraging Apache Iceberg tables...',
-              'Designed and deployed a Multimodal RAG AI Agent...',
-              'Delivered multiple client demos...'
+              'Agilicé los flujos de trabajo internos mediante la implementación de soluciones low-code y bots RPA, reduciendo el esfuerzo manual en un 25%.'
             ]
           }
         ]
@@ -363,12 +355,13 @@ export const translations = {
       title: 'Proyectos',
       greenhouse: {
         title: 'Gemelo Digital de Invernadero',
-        tech: 'SNNs, AWS Lambda, IoT Core, Serverless',
+        tech: 'SNNs, AWS Lambda, PostgreSQL RDS, Serverless',
+        img: '/greenhouse.png',
         items: [
-          'Implementé un gemelo digital en tiempo casi real para el monitoreo de invernaderos usando Redes Neuronales de Impulsos (SNNs)',
-          'Construí una arquitectura serverless en AWS utilizando IoT Core, Lambda y DynamoDB para el procesamiento de datos de sensores',
-          'Integré detección de anomalías multi-sensor para monitorear la salud ambiental y activar alertas',
-          'Desarrollé un panel interactivo para visualización de datos de alta frecuencia e insights'
+          'Implementé un gemelo digital en tiempo casi real para el monitoreo de invernaderos usando Redes Neuronales de Impulsos (SNNs).',
+          'Construí una arquitectura serverless en AWS utilizando Lambda, EventBridge y PostgreSQL RDS para el procesamiento de datos de sensores.',
+          'Integré detección de anomalías multi-sensor para monitorear la salud ambiental y activar alertas.',
+          'Desarrollé un panel interactivo para visualización de datos de alta frecuencia e insights.'
         ],
         links: [
           { type: 'demo', url: 'https://greenhouse-digital-twin-dashboard.vercel.app/' }
@@ -436,12 +429,12 @@ export const translations = {
     },
     education: {
       title: 'Educación',
-      degree: 'Licenciatura en Ciencia de Datos',
+      degree: 'Grado en Ciencia de Datos',
       university: 'La Universidad de Sheffield',
       period: 'Septiembre 2023 – Junio 2026',
-      grade: 'Esperado: Honores de Primera Clase',
+      grade: 'Previsto: Matrícula de Honor (1st)',
       coursework: 'Cursos Relevantes:',
-      courses: 'Estadística Inferencial, IA y Machine Learning, Modelado de Bases de Datos, Ética en IA'
+      courses: 'Estadística Inferencial, Aplicaciones de IA, Modelado de Bases de Datos, Ética en IA, Machine Learning. Actividades: Club de Remo, Data Science Society (Fundador), Sheffield Technology Group (Cofundador), Asesor Siemens DIZ, Italian Society, Wine Society (Tesorero)'
     },
     leadership: {
       title: 'Liderazgo y Voluntariado',
@@ -449,22 +442,19 @@ export const translations = {
         roles: [
           {
             date: 'Septiembre 2025 – Presente',
-            title: 'Data Science Society - Responsable de Educación',
-            location: 'University of Sheffield',
+            title: 'Responsable de Alcance y Embajador Académico IBM',
+            location: 'Universidad de Sheffield',
             items: [
-              'Lideré proyectos de datos pro bono con 2 organizaciones locales',
-              'Desarrollé agente de cumplimiento BSA para consultoría de construcción',
-              'Creé estrategia de optimización de alcance para caridad que apoya a sobrevivientes de esclavitud moderna'
+              'Lancé la primera competición Data Dive asegurando £1000 en fondos y colaboración con Sirius Digital; guiando a más de 100 estudiantes en proyectos de aprendizaje automático.',
+              'Colaboré con el equipo de RSC de IBM en un proyecto de datos OBD2 con más de 500k registros para mantenimiento predictivo.'
             ]
           },
           {
             date: 'Febrero 2024 – Mayo 2025',
-            title: 'Data Science Society - Fundador y Presidente',
-            location: 'University of Sheffield',
+            title: 'Fundador y Presidente - Data Science Society',
+            location: 'Universidad de Sheffield',
             items: [
-              'Fundé y presidí la sociedad, impulsando el crecimiento de membresía mediante alcance dirigido',
-              'Gestioné presupuesto financiado por estudiantes y aseguré financiamiento adicional',
-              'Entregué la mejor experiencia universitaria para más de 120 estudiantes'
+              'Fundé y presidí la sociedad a través de 15 eventos exitosos para 108 miembros, impulsando el crecimiento mediante presupuestos financiados por estudiantes y patrocinios corporativos.'
             ]
           }
         ]
@@ -503,25 +493,25 @@ export const translations = {
     skills: {
       title: 'Habilidades y Tecnologías',
       programmingTools: {
-        title: 'Programación y Herramientas',
-        items: ['Python', 'R', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Docker', 'Excel & VBA']
+        title: 'Herramientas y Plataformas',
+        items: ['Python', 'Programación en R', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Watsonx Platform', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'Salesforce', 'MCP', 'OCR', 'AstraDB', 'Langgraph', 'Langchain', 'IA Generativa', 'Docker', 'Postman']
       },
       cloudAI: {
-        title: 'Plataformas Cloud e IA',
-        items: ['IBM Watsonx', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'IA Generativa', 'RAG', 'Desarrollo de Agentes']
+        title: 'Competencias Principales',
+        items: ['Modelado y Visualización de Datos', 'Análisis Estadístico', 'RAG', 'Desarrollo de Agentes', 'Ingeniería de Prompts', 'Estrategia y Gobernanza de Datos', 'Liderazgo', 'Trabajo en Equipo', 'Gestión de Interesados', 'Design Thinking', 'Agile Scrum', 'Storytelling']
       },
       coreCompetencies: {
-        title: 'Competencias Principales',
-        items: ['Modelado de Datos', 'Análisis Estadístico', 'Estrategia de Datos', 'Ingeniería de Prompts', 'Gestión de Interesados', 'Design Thinking', 'Agile Scrum', 'Storytelling']
+        title: 'Idiomas',
+        items: ['Español (Nativo)', 'Inglés (Bilingüe Nativo)', 'Italiano (B1/B2)']
       },
       certifications: {
         title: 'Certificaciones',
         items: [
           { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-          { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
-          { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
+          { img: 'agentic-ai.png', title: 'IBM Consulting Agentic AI Foundations' },
+          { img: 'watsonx.png', title: 'Watsonx.ai Data Science and MLOps Sales' },
           { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-          { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
+          { img: 'design-thinking.png', title: 'Accenture Strategy Consulting' },
           { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
         ]
       }
@@ -569,13 +559,13 @@ export const translations = {
         roles: [
           {
             date: 'Giugno 2025 – Settembre 2025',
-            title: 'Stagista Architetto di Soluzioni CSM - IBM',
+            title: 'Stagista Architetto di Soluzioni CSM, Tecnologia - IBM',
             location: 'Londra, Regno Unito',
             items: [
-              'Ho costruito un asset di integrazione dati sostenibile sfruttando tabelle Apache Iceberg e Watsonx.ai, riducendo il tempo di valutazione del 18% e il rischio di allucinazione LLM del 30%',
-              'Ho progettato e implementato un Agente AI RAG Multimodale che genera automaticamente riassunti esecutivi, risparmiando 3-4 ore settimanali in riunioni interne',
-              'Ho consegnato molteplici demo per clienti in Consulenza AI e Analytics e Vendite Tecniche',
-              'Ho supportato un impegno di consulenza basato su asset con un fornitore leader di servizi finanziari'
+              'Realizzato un asset di integrazione dati sostenibile utilizzando tabelle Apache Iceberg e Watsonx.ai, riducendo il tempo di valutazione del 18% e il rischio di allucinazione LLM del 30%.',
+              'Progettato e implementato un Agente AI RAG Multimodale per la dashboard di CSM, risparmiando 3-4 ore settimanali grazie alla generazione autonoma di riassunti esecutivi.',
+              'Consegnato molteplici demo di prodotto in Consulenza AI & Analytics e Vendite Tecniche, valorizzando le piattaforme IBM tramite storytelling e modelli di coinvolgimento cliente.',
+              'Supportato consulenza basata su asset per un leader dei servizi finanziari, acquisendo esperienza nel design di user journey per Assistenti AI e strategie di IA Agentica.'
             ]
           }
         ]
@@ -587,10 +577,10 @@ export const translations = {
             title: 'Stagista CRM Fedeltà e Vendite Digitali - Corporación Primax S.A.',
             location: 'Lima, Perù',
             items: [
-              'Ho quantificato l\'opportunità di mercato utilizzando clustering RFM su oltre 5 milioni di record',
-              'Ho ridisegnato matrici di margine per riflettere meglio la redditività tra gruppi di consumatori',
-              'Ho progettato dashboard manageriale per l\'espansione della divisione Colombia',
-              'Ho sviluppato alert automatizzati One-Pager per il monitoraggio KPI'
+              'Quantificato opportunità di mercato tramite clustering RFM su oltre 5 milioni di record per supportare la strategia di vendite digitali del Q4 2024.',
+              'Ridisegnato matrici di margine per riflettere meglio la redditività per gruppi di consumatori.',
+              'Progettato e proposto una dashboard manageriale per l\'espansione della divisione in Colombia.',
+              'Sviluppato avvisi automatizzati "One-Pager" per il monitoraggio dei KPI nel dipartimento vendite.'
             ]
           }
         ]
@@ -599,11 +589,10 @@ export const translations = {
         roles: [
           {
             date: 'Giugno 2023 – Settembre 2023',
-            title: 'Stagista Gestione Dati - Clínica Aviva Grupo Intercorp',
+            title: 'Stagista Gestione Dati - Clínica Aviva / Gruppo Intercorp',
             location: 'Lima, Perù',
             items: [
-              'Ho ottimizzato il processo di approvvigionamento farmaceutico integrando ERP legacy con prototipi RPA',
-              'Ho ridotto le ore di contatto per le decisioni del 37% tra i team finanziari e di approvvigionamento'
+              'Ottimizzato il processo di approvvigionamento della farmacia integrando ERP legacy con prototipi RPA, riducendo le ore di contatto per le decisioni del 37%.'
             ]
           }
         ]
@@ -612,20 +601,18 @@ export const translations = {
         roles: [
           {
             date: 'Settembre 2022 – Dicembre 2022',
-            title: 'Data Analytics Off-Cycle Intern - Pacifico Seguros',
-            location: 'Lima, Perú',
+            title: 'Stagista Data Analytics (Off-Cycle) - Pacifico Seguros',
+            location: 'Lima, Perù',
             items: [
-              'Contributed to the company’s digital transformation...'
+              'Contribuito alla trasformazione digitale dell\'azienda automatizzando processi di reporting e sviluppando modelli predittivi per l\'abbandono dei clienti.'
             ]
           },
           {
             date: 'Giugno 2022 – Settembre 2022',
-            title: 'Process Innovation Summer Intern - Pacifico Seguros',
-            location: 'Lima, Perú',
+            title: 'Stagista Innovazione dei Processi - Pacifico Seguros',
+            location: 'Lima, Perù',
             items: [
-              'Built a sustainable data integration asset leveraging Apache Iceberg tables...',
-              'Designed and deployed a Multimodal RAG AI Agent...',
-              'Delivered multiple client demos...'
+              'Ottimizzato i flussi di lavoro interni implementando soluzioni low-code e bot RPA, riducendo l\'impegno manuale del 25%.'
             ]
           }
         ]
@@ -635,12 +622,13 @@ export const translations = {
       title: 'Progetti',
       greenhouse: {
         title: 'Digital Twin Serra',
-        tech: 'SNNs, AWS Lambda, IoT Core, Serverless',
+        tech: 'SNNs, AWS Lambda, PostgreSQL RDS, Serverless',
+        img: '/greenhouse.png',
         items: [
-          'Implementato un gemello digitale in tempo quasi reale per il monitoraggio delle serre utilizzando Spiking Neural Networks (SNNs)',
-          'Costruita un\'architettura serverless su AWS utilizzando IoT Core, Lambda e DynamoDB per l\'elaborazione dei dati dei sensori',
-          'Integrato il rilevamento delle anomalie multi-sensore per monitorare la salute dell\'ambiente e attivare avvisi',
-          'Sviluppato un dashboard interattivo per la visualizzazione di dati ad alta frequenza e insight'
+          'Implementato un gemello digitale in tempo quasi reale per il monitoraggio delle serre utilizzando Spiking Neural Networks (SNNs).',
+          'Costruita un\'architettura serverless su AWS utilizzando Lambda, EventBridge e PostgreSQL RDS per l\'elaborazione dei dati dei sensori.',
+          'Integrato il rilevamento delle anomalie multi-sensore per monitorare la salute dell\'ambiente e attivare avvisi.',
+          'Sviluppato un dashboard interattivo per la visualizzazione di dati ad alta frequenza e insight.'
         ],
         links: [
           { type: 'demo', url: 'https://greenhouse-digital-twin-dashboard.vercel.app/' }
@@ -711,9 +699,9 @@ export const translations = {
       degree: 'Laurea in Data Science',
       university: 'Università di Sheffield',
       period: 'Settembre 2023 – Giugno 2026',
-      grade: 'Previsto: Lode di Prima Classe',
+      grade: 'Previsto: Lode di Prima Classe (1st)',
       coursework: 'Corsi Rilevanti:',
-      courses: 'Statistica Inferenziale, AI e Machine Learning, Modellazione Database, Etica AI'
+      courses: 'Statistica Inferenziale, Applicazioni AI, Modellazione Database, Etica AI, Machine Learning. Attività: Club di Canottaggio, Data Science Society (Fondatore), Sheffield Technology Group (Cofondatore), Consulente Siemens DIZ, Italian Society, Wine Society (Tesoriere)'
     },
     leadership: {
       title: 'Leadership e Volontariato',
@@ -721,22 +709,19 @@ export const translations = {
         roles: [
           {
             date: 'Settembre 2025 – Presente',
-            title: 'Data Science Society - Responsabile Educazione',
+            title: 'Responsabile Outreach e IBM Academic Ambassador',
             location: 'Università di Sheffield',
             items: [
-              'Ho guidato progetti dati pro bono con 2 organizzazioni locali',
-              'Ho sviluppato agente di conformità BSA per consulenza edile',
-              'Ho creato strategia di ottimizzazione outreach per carità che supporta sopravvissuti alla schiavitù moderna'
+              'Lanciata la prima competizione Data Dive assicurando £1000 in finanziamenti e partnership con Sirius Digital; guidato oltre 100 studenti in progetti di machine learning.',
+              'Collaborato con il team CSR di IBM su un progetto dati OBD2 con oltre 500k record per manutenzione predittiva.'
             ]
           },
           {
             date: 'Febbraio 2024 – Maggio 2025',
-            title: 'Data Science Society - Fondatore e Presidente',
+            title: 'Fondatore e Presidente - Data Science Society',
             location: 'Università di Sheffield',
             items: [
-              'Ho fondato e presieduto la società, guidando la crescita dei membri attraverso outreach mirato',
-              'Ho gestito budget finanziato da studenti e assicurato finanziamenti aggiuntivi',
-              'Ho fornito la migliore esperienza universitaria per oltre 120 studenti'
+              'Fondatore e presidente della società tramite 15 eventi di successo per 108 membri, guidando la crescita tramite budget finanziati dagli studenti e sponsorizzazioni aziendali.'
             ]
           }
         ]
@@ -775,25 +760,25 @@ export const translations = {
     skills: {
       title: 'Competenze e Tecnologie',
       programmingTools: {
-        title: 'Programmazione e Strumenti',
-        items: ['Python', 'R', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Docker', 'Excel & VBA']
+        title: 'Strumenti e Piattaforme',
+        items: ['Python', 'Programmazione R', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Watsonx Platform', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'Salesforce', 'MCP', 'OCR', 'AstraDB', 'Langgraph', 'Langchain', 'IA Generativa', 'Docker', 'Postman']
       },
       cloudAI: {
-        title: 'Piattaforme Cloud e AI',
-        items: ['IBM Watsonx', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'IA Generativa', 'RAG', 'Sviluppo di Agenti']
+        title: 'Competenze Principali',
+        items: ['Modellazione e Visualizzazione Dati', 'Analisi Statistica', 'RAG', 'Sviluppo Agenti', 'Prompt Engineering', 'Strategia e Governance Dati', 'Leadership', 'Lavoro di Squadra', 'Gestione Stakeholder', 'Design Thinking', 'Agile Scrum', 'Storytelling']
       },
       coreCompetencies: {
-        title: 'Competenze Principali',
-        items: ['Modellazione Dati', 'Analisi Statistica', 'Strategia Dati', 'Prompt Engineering', 'Gestione Stakeholder', 'Design Thinking', 'Agile Scrum', 'Storytelling']
+        title: 'Lingue',
+        items: ['Spagnolo (Madrelingua)', 'Inglese (Madrelingua Bilingue)', 'Italiano (B1/B2)']
       },
       certifications: {
         title: 'Certificazioni',
         items: [
           { img: 'ibm-internship.png', title: 'IBM Internship Program' },
-          { img: 'agentic-ai.png', title: 'IBM Agentic AI Foundations' },
-          { img: 'watsonx.png', title: 'Watsonx.ai Sales Foundation' },
+          { img: 'agentic-ai.png', title: 'IBM Consulting Agentic AI Foundations' },
+          { img: 'watsonx.png', title: 'Watsonx.ai Data Science and MLOps Sales' },
           { img: 'aws-cloud.png', title: 'AWS Cloud Foundations' },
-          { img: 'design-thinking.png', title: 'Design Thinking Co-Creator' },
+          { img: 'design-thinking.png', title: 'Accenture Strategy Consulting' },
           { img: 'academic-ambassador.png', title: 'IBM Academic Ambassador' }
         ]
       }
