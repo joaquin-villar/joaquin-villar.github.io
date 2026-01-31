@@ -769,8 +769,9 @@ body {
   }
 
   .profile-wrapper {
-    width: 28rem;
-    height: 28rem;
+    width: 26rem;
+    height: 26rem;
+    margin: 0 auto;
   }
 
   .hero-left h1 {
@@ -877,8 +878,15 @@ body {
   }
 
   .profile-wrapper {
-    width: 22rem;
-    height: 22rem;
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .open-to-work-badge {
+    top: 1rem;
+    left: -1rem;
+    font-size: 1.1rem;
+    padding: 0.4rem 1rem;
   }
 
   .btn-primary,

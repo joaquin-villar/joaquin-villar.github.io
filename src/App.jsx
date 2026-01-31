@@ -144,7 +144,7 @@ function App() {
 
           <div className={`nav-content ${menuOpen ? 'open' : ''}`}>
             <ul className="nav-links">
-              {['home', 'about', 'experience', 'projects', 'leadership', 'contact'].map((item) => (
+              {['home', 'about', 'experience', 'projects', 'giveback', 'contact'].map((item) => (
                 <li key={item}>
                   <a onClick={() => scrollToSection(item === 'home' ? 'hero' : item)}>
                     {t.nav[item]}
