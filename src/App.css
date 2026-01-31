@@ -142,19 +142,20 @@ body {
 .nav-content {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.2rem;
+  justify-content: flex-end;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
 .nav-links a {
   color: var(--gray-800);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: 500;
   position: relative;
   transition: color var(--transition);
@@ -166,11 +167,11 @@ body {
 }
 
 .nav-separator {
-  width: 1.5px;
-  height: 2.2rem;
-  background-color: var(--gray-400);
-  margin: 0 1.2rem;
-  opacity: 0.6;
+  width: 1px;
+  height: 2rem;
+  background-color: var(--gray-200);
+  margin: 0 0.8rem;
+  display: block;
 }
 
 /* Language Dropdown */
