@@ -194,7 +194,11 @@ function App() {
           </div>
 
           <div className="hero-right">
-            <div className="profile-wrapper">
+            <div className="profile-wrapper animate">
+              <div className="open-to-work-badge">
+                <span className="badge-dot pulse"></span>
+                {t.hero.openToWork}
+              </div>
               <img
                 src={'/profile.png'}
                 alt="Joaquin Villar"

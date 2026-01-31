@@ -12,8 +12,9 @@ export const translations = {
       contact: 'Contact'
     },
     hero: {
-      title: 'Data Science Student | AI & Cloud Specialist',
+      title: 'Data Scientist | AI & Cloud Solutions',
       intro: 'Graduating Data Science student with hands-on experience in AI, Cloud and Data Services. Passionate about the application of Digital Twins for Sustainable Development.',
+      openToWork: 'Open to Work'
     },
     about: {
       title: 'About Me',
@@ -151,10 +152,10 @@ export const translations = {
       },
       windEnergy: {
         title: 'Wind Energy & Grid Stability',
-        tech: 'Python, ML, Responsible Data Science',
+        tech: 'Python, ML, Responsible Data Science, Time Series Analysis',
         img: '/wind-energy.png',
         items: [
-          'Conducted an empirical analysis of wind energy impact on UK Grid stability (Module INF216).',
+          'Conducted an empirical analysis of wind energy impact on UK Grid stability.',
           'Developed machine learning models to predict frequency instability thresholds in renewable-heavy systems.',
           'Leveraged advanced time-series analysis to identify critical frequency deviation patterns.',
           'Explored the trade-offs between renewable penetration and long-term grid reliability.'
@@ -283,8 +284,9 @@ export const translations = {
       contact: 'Contacto'
     },
     hero: {
-      title: 'Estudiante de Ciencia de Datos | Especialista en IA y Cloud',
-      intro: 'Estudiante de Ciencia de Datos próximo a graduarse con experiencia práctica en IA, Cloud y Servicios de Datos. Apasionado por la aplicación de gemelos digitales para el desarrollo sostenible.',
+      title: 'Científico de Datos | AI & Cloud Solutions',
+      intro: 'Estudiante de Ciencia de Datos próximo a graduarse con experiencia práctica en IA, Nube y Servicios de Datos. Apasionado por la aplicación de Gemelos Digitales para el desarrollo sostenible.',
+      openToWork: 'Abierto a Oportunidades'
     },
     about: {
       title: 'Sobre Mí',
@@ -554,12 +556,13 @@ export const translations = {
       contact: 'Contatto'
     },
     hero: {
-      title: 'Studente di Data Science | Specialista AI e Cloud',
+      title: 'Data Scientist | AI & Cloud Solutions',
       intro: 'Studente di Data Science in procinto di laurearsi con esperienza pratica in AI, Cloud e Servizi Dati. Appassionato dell\'applicazione dei gemelli digitali per lo sviluppo sostenibile.',
+      openToWork: 'Disponibile per Opportunità'
     },
     about: {
       title: 'Chi Sono',
-      text: 'Sono uno studente dell\'ultimo anno di Data Science all\'Università di Sheffield con uno stage completato presso IBM. Come risolutore di problemi bilingue, analitico e creativo, ho anni di esperienza nel fornire soluzioni basate sui dati. Sono appassionato di trasformazione digitale attraverso AI/MLOps e soluzioni basate su asset, cercando opportunità per guidare il cambiamento e fornire valore attraverso ruoli strategici e orientati al cliente.'
+      text: 'Sono uno studente dell\'ultimo anno di Data Science all\'Università di Sheffield con uno stage completato presso IBM. Come risolutore di problemi bilingue, analitico e creativo, ho anni di esperienza nel fornire soluzioni basate sui dati. Mi appassiono alla trasformazione digitale attraverso AI/MLOps e soluzioni basate su asset, cercando opportunità per guidare il cambiamento e fornire valore attraverso ruoli strategici e orientati al cliente.'
     },
     experience: {
       title: 'Esperienza Professionale',
