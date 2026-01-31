@@ -159,7 +159,7 @@ function App() {
 
           <div className={`nav-content ${menuOpen ? 'open' : ''}`}>
             <ul className="nav-links">
-              {['home', 'about', 'experience', 'projects', 'giveback', 'contact'].map((item) => (
+              {['home', 'about', 'experience', 'projects', 'certs', 'giveback', 'contact'].map((item) => (
                 <li key={item}>
                   <a onClick={() => scrollToSection(item === 'home' ? 'hero' : item)}>
                     {t.nav[item]}
@@ -391,7 +391,7 @@ function App() {
             </div>
           </div>
 
-          <h3 className="subheading animate">{t.skills.certifications.title}</h3>
+          <h3 id="certs" className="subheading animate">{t.skills.certifications.title}</h3>
           <div className="cert-grid">
             {t.skills.certifications.items.map((cert, i) => (
               <a
