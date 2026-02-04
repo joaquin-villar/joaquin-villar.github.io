@@ -102,9 +102,9 @@ export const translations = {
         img: '/projects/greenhouse.png',
         items: [
           'Implemented a near real-time digital twin for greenhouse monitoring using Spiking Neural Networks (SNNs).',
-          'Built a serverless architecture on AWS utilizing Lambda, EventBridge, and PostgreSQL RDS for sensor data processing.',
+          'Built a serverless architecture on AWS utilising Lambda, EventBridge, and PostgreSQL RDS for sensor data processing.',
           'Integrated multi-sensor anomaly detection to monitor environment health and trigger alerts.',
-          'Developed an interactive dashboard for high-frequency data visualization and insights.'
+          'Developed an interactive dashboard for high-frequency data visualisation and insights.'
         ],
         links: [
           { type: 'demo', url: 'https://greenhouse-digital-twin-dashboard.vercel.app/' }
@@ -128,7 +128,7 @@ export const translations = {
         tech: 'NLP, PEFT (LoRA), Streamlit, Hugging Face',
         img: '/projects/news-classifier.png',
         items: [
-          'Fine-tuned a Large Language Model using Low-Rank Adaptation (LoRA) for news categorization',
+          'Fine-tuned a Large Language Model using Low-Rank Adaptation (LoRA) for news categorisation',
           'Deployed the model as an interactive web app using Streamlit',
           'Hosted on Hugging Face Spaces for public accessibility'
         ],
@@ -142,7 +142,7 @@ export const translations = {
         tech: 'React, Web Development, Vercel',
         img: '/projects/dss-website.png',
         items: [
-          'Designed and developed the official website for 120+ society members',
+          'Designed and developed the official website for 100+ society members',
           'Integrated event management and member communication systems',
           'Deployed on Vercel for high performance and scalability'
         ],
@@ -155,9 +155,9 @@ export const translations = {
         tech: 'Geospatial Data, Visualization, Vercel',
         img: '/projects/lima-mapping.png',
         items: [
-          'Interactive map visualization of infrastructure projects in Lima',
+          'Interactive map visualisation of infrastructure projects in Lima',
           'Provides insights into urban development and resource allocation',
-          'Optimized for web performance and mobile responsiveness'
+          'Optimised for web performance and mobile responsiveness'
         ],
         links: [
           { type: 'demo', url: 'https://lima-projects-mapping.vercel.app/' }
@@ -196,7 +196,7 @@ export const translations = {
             title: 'Outreach Officer & IBM Academic Ambassador',
             location: 'University of Sheffield',
             items: [
-              'Launched the first Data Dive competition securing £1000 in funding and partnership with Sirius Digital; guided 100+ students through machine learning projects.',
+              'Launched the first Data Dive competition securing £1000 in funding and partnership with Sirius Digital and IBM; guided 100+ students through machine learning projects.',
               'Collaborated with IBM’s CSR team on an OBD2 Scanner data project involving 500k+ records to simulate predictive maintenance and build a monitoring dashboard.'
             ]
           },
@@ -260,9 +260,9 @@ export const translations = {
         items: [
           { title: 'AWS Academy Graduate - Cloud Foundations', img: 'aws-academy-graduate-cloud-foundations-training-bad.png', link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-foundations-training-bad' },
           { title: 'IBM Academic Ambassador', img: 'ibm-academic-ambassador.png', link: '/certifications/Joaquin Villar - IBM Academic Ambassador.pdf' },
-          { title: 'IBM Internship Program Certificate', img: 'ibm-internship-program-certificate.png', link: '/certifications/Joaquin Villar = IBM Internship Program Certificate.pdf' },
+          { title: 'IBM Internship Programme Certificate', img: 'ibm-internship-program-certificate.png', link: '/certifications/Joaquin Villar = IBM Internship Program Certificate.pdf' },
           { title: 'IBM Consulting Agentic AI Foundations', img: 'ibm-consulting-agentic-ai-foundations.png', link: '/certifications/Joaquin Villar - IBM Consulting Agentic AI Foundations.pdf' },
-          { title: 'IBM Growth Behaviors', img: 'ibm-growth-behaviors.png', link: '/certifications/Joaquin Villar - IBM Growth Behaviours.pdf' },
+          { title: 'IBM Growth Behaviours', img: 'ibm-growth-behaviors.png', link: '/certifications/Joaquin Villar - IBM Growth Behaviours.pdf' },
           { title: 'Maximo Application Suite Sales Foundation', img: 'maximo-application-suite-sales-foundation.png', link: '/certifications/Joaquin Villar- Maximo Application Suite.pdf' },
           { title: 'IBM Generative & Agentic AI Foundation', img: 'ibm-generative-agentic-ai-foundation.png', link: '/certifications/Joaquin Villar - IBM Generative AI Foundations.pdf' },
           { title: 'watsonx.ai Data Preparation Sales Foundation', img: 'watsonx-ai-data-preparation-sales-foundation.png', link: '/certifications/Joaquin Villar - watsonx.ai Data Preparation.pdf' },
@@ -435,7 +435,7 @@ export const translations = {
         tech: 'React, Desarrollo Web, Vercel',
         img: '/projects/dss-website.png',
         items: [
-          'Diseñé y desarrollé el sitio web oficial para más de 120 miembros',
+          'Diseñé y desarrollé el sitio web oficial para más de 100 miembros',
           'Integré sistemas de gestión de eventos',
           'Desplegado en Vercel para alto rendimiento'
         ],
@@ -489,7 +489,7 @@ export const translations = {
             title: 'Responsable de Alcance y Embajador Académico IBM',
             location: 'Universidad de Sheffield',
             items: [
-              'Lancé la primera competición Data Dive asegurando £1000 en fondos y colaboración con Sirius Digital; guiando a más de 100 estudiantes en proyectos de aprendizaje automático.',
+              'Lancé la primera competición Data Dive asegurando £1000 en fondos y colaboración con Sirius Digital e IBM; guiando a más de 100 estudiantes en proyectos de aprendizaje automático.',
               'Colaboré con el equipo de RSC de IBM en un proyecto de datos OBD2 con más de 500k registros para mantenimiento predictivo.'
             ]
           },
@@ -728,7 +728,7 @@ export const translations = {
         tech: 'React, Sviluppo Web, Vercel',
         img: '/projects/dss-website.png',
         items: [
-          'Ho progettato e sviluppato il sito ufficiale per oltre 120 membri',
+          'Ho progettato e sviluppato il sito ufficiale per oltre 100 membri',
           'Ho integrato sistemi di gestione eventi',
           'Distribuito su Vercel per alte prestazioni'
         ],
@@ -782,7 +782,7 @@ export const translations = {
             title: 'Responsabile Outreach e IBM Academic Ambassador',
             location: 'Università di Sheffield',
             items: [
-              'Lanciata la prima competizione Data Dive assicurando £1000 in finanziamenti e partnership con Sirius Digital; guidato oltre 100 studenti in progetti di machine learning.',
+              'Lanciata la prima competizione Data Dive assicurando £1000 in finanziamenti e partnership con Sirius Digital e IBM; guidato oltre 100 studenti in progetti di machine learning.',
               'Collaborato con il team CSR di IBM su un progetto dati OBD2 con oltre 500k record per manutenzione predittiva.'
             ]
           },
