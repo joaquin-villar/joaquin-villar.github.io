@@ -92,6 +92,16 @@ function App() {
   const t = useMemo(() => translations[language], [language]);
 
   useEffect(() => {
+    const handleAnimate = () => {
+      const elements = document.querySelectorAll('.animate');
+      elements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          el.classList.add('visible');
+        }
+      });
+    };
+
     const handleScroll = () => {
       window.requestAnimationFrame(() => {
         const scrollPosition = window.scrollY;
@@ -103,13 +113,7 @@ function App() {
         setShowScrollTop(scrollPosition > 300);
         setScrollProgress(scrolledPct);
 
-        const elements = document.querySelectorAll('.animate');
-        elements.forEach(el => {
-          const rect = el.getBoundingClientRect();
-          if (rect.top < window.innerHeight - 100) {
-            el.classList.add('visible');
-          }
-        });
+        handleAnimate();
       });
     };
 
@@ -118,6 +122,9 @@ function App() {
         setLangMenuOpen(false);
       }
     };
+
+    // Initial check
+    handleAnimate();
 
     window.addEventListener('scroll', handleScroll);
     document.addEventListener('mousedown', handleClickOutside);
