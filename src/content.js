@@ -1,6 +1,6 @@
 // --- Configuration ---
 export const CONFIG = {
-  showOpenToWork: true
+  showOpenToWork: false
 };
 
 export const translations = {
