@@ -75,18 +75,20 @@ export const translations = {
         roles: [
           {
             date: 'September 2022 – December 2022',
-            title: 'Data Analytics Off-Cycle Intern - Pacifico Seguros',
+            title: 'Data Analytics COE, Intern - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Contributed to the company’s digital transformation by automating reporting processes and developing predictive models for customer churn.'
+              'Collaborated with 3 business lines to engineer complete PowerBI dashboards that met their unique requirements.',
+              'Co-authored the first company-wide Data Visualization Framework, improving cross-departmental reporting efficiency by 20%.'
             ]
           },
           {
             date: 'June 2022 – September 2022',
-            title: 'Process Innovation Summer Intern - Pacifico Seguros',
+            title: 'Process Innovation COE, Intern - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Streamlined internal workflows by implementing low-code solutions and RPA bots, reducing manual effort in operational tasks by 25%.'
+              'Hyper-automated legacy systems across the company by integrating business intelligence methods with citizen-developer tools (PowerApps/RPA) and the Azure cloud ecosystem.',
+              'Reduced manual effort in operational tasks by 25%, saving 10+ contact hours weekly for high-impact decision-making teams.'
             ]
           }
         ]
@@ -366,18 +368,20 @@ export const translations = {
         roles: [
           {
             date: 'Septiembre 2022 – Diciembre 2022',
-            title: 'Pasante de Analítica de Datos (Off-Cycle) - Pacifico Seguros',
+            title: 'Pasantía COE de Analítica de Datos - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Contribuí a la transformación digital de la empresa automatizando procesos de reporte y desarrollando modelos predictivos de fuga de clientes.'
+              'Colaboré con 3 líneas de negocio para diseñar tableros completos de PowerBI que cumplieran con sus requerimientos únicos.',
+              'Co-autoricé el primer Marco de Trabajo de Visualización de Datos a nivel corporativo, mejorando la eficiencia de los reportes en un 20%.'
             ]
           },
           {
             date: 'Junio 2022 – Septiembre 2022',
-            title: 'Pasante de Innovación de Procesos - Pacifico Seguros',
+            title: 'Pasantía COE de Innovación de Procesos - Pacifico Seguros',
             location: 'Lima, Perú',
             items: [
-              'Agilicé los flujos de trabajo internos mediante la implementación de soluciones low-code y bots RPA, reduciendo el esfuerzo manual en un 25%.'
+              'Hiper-automaticé sistemas heredados integrando métodos de inteligencia de negocios con herramientas de citizen-developer (PowerApps/RPA) y el ecosistema de Azure Cloud.',
+              'Reduje el esfuerzo manual en tareas operativas en un 25%, ahorrando más de 10 horas de contacto semanales para equipos de toma de decisiones de alto impacto.'
             ]
           }
         ]
@@ -657,18 +661,20 @@ export const translations = {
         roles: [
           {
             date: 'Settembre 2022 – Dicembre 2022',
-            title: 'Stagista Data Analytics (Off-Cycle) - Pacifico Seguros',
+            title: 'Stagista COE Data Analytics - Pacifico Seguros',
             location: 'Lima, Perù',
             items: [
-              'Contribuito alla trasformazione digitale dell\'azienda automatizzando processi di reporting e sviluppando modelli predittivi per l\'abbandono dei clienti.'
+              'Ho collaborato con 3 linee di business per progettare dashboard complete in PowerBI che soddisfacessero i loro requisiti unici.',
+              'Ho co-redatto il primo framework aziendale per la visualizzazione dei dati, migliorando l\'efficienza del reporting del 20%.'
             ]
           },
           {
             date: 'Giugno 2022 – Settembre 2022',
-            title: 'Stagista Innovazione dei Processi - Pacifico Seguros',
+            title: 'Stagista COE Process Innovation - Pacifico Seguros',
             location: 'Lima, Perù',
             items: [
-              'Ottimizzato i flussi di lavoro interni implementando soluzioni low-code e bot RPA, riducendo l\'impegno manuale del 25%.'
+              'Ho iper-automatizzato i sistemi legacy integrando metodi di business intelligence con strumenti citizen-developer (PowerApps/RPA) e l\'ecosistema cloud di Azure.',
+              'Ho ridotto lo sforzo manuale nelle attività operative del 25%, risparmiando oltre 10 ore di contatto settimanali per i team decisionali ad alto impatto.'
             ]
           }
         ]
