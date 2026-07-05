@@ -216,7 +216,7 @@ const ProjectCard = ({ title, tech, items, links, img }) => (
 // --- Main App ---
 
 function App() {
-  const projectKeys = ['greenhouse', 'portfolio', 'newsClassifier', 'limaMapping', 'windEnergy'];
+  const projectKeys = ['greenhouse', 'portfolio', 'newsClassifier', 'dssSociety', 'limaMapping', 'windEnergy'];
 
 
   const [scrolled, setScrolled] = useState(false);
@@ -409,7 +409,7 @@ function App() {
           {[
             { value: 1.5, suffix: '', labelKey: 'experience' },
             { value: 19,  suffix: '',  labelKey: 'certifications' },
-            { value: 5,   suffix: '',  labelKey: 'projects' },
+            { value: 6,   suffix: '',  labelKey: 'projects' },
             { value: 3,   suffix: '',  labelKey: 'languages' },
           ].map(({ value, suffix, labelKey }) => (
             <Counter key={labelKey} value={value} suffix={suffix} label={t.stats[labelKey]} />
