@@ -2,7 +2,7 @@
   "name": "joaquinvillar.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joaquinvillar.github.io/",
+  "homepage": "https://joaquin-villar.github.io/",
   "dependencies": {
     "framer-motion": "^12.39.0",
     "react": "^19.2.0",
