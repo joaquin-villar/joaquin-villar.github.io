@@ -1,6 +1,48 @@
 // --- Configuration ---
 export const CONFIG = {
-  showOpenToWork: true
+  showOpenToWork: false
+};
+
+// --- Skill metadata (icon abbreviation + description) ---
+export const SKILL_META = {
+  'Python':                          { abbr: 'Py',  desc: 'Core language across all data science and ML projects, from EDA to model deployment.' },
+  'R Programming':                   { abbr: 'R',   desc: 'Applied for statistical analysis and visualisation in academic and professional work.' },
+  'SQL':                             { abbr: 'SQL', desc: 'Primary language for querying and managing relational databases across multiple roles.' },
+  'NoSQL':                           { abbr: 'NS',  desc: 'Used with MongoDB and AstraDB for unstructured and vector data storage.' },
+  'Power BI':                        { abbr: 'BI',  desc: 'Built enterprise dashboards and KPI monitoring tools across internships.' },
+  'SPSS Modeler':                    { abbr: 'SP',  desc: 'Applied for predictive modelling and data mining workflows.' },
+  'Watsonx Platform':                { abbr: 'Wx',  desc: 'Developed AI assets and RAG agents using IBM\'s enterprise AI stack.' },
+  'IBM Cloud':                       { abbr: 'IBM', desc: 'Deployed and managed cloud-based data services and AI workloads.' },
+  'AWS':                             { abbr: 'AWS', desc: 'Built serverless architectures using Lambda, EventBridge, and PostgreSQL RDS.' },
+  'Azure':                           { abbr: 'Az',  desc: 'Integrated Azure cloud services and automation tools across internships.' },
+  'GCP':                             { abbr: 'GCP', desc: 'Used for cloud-based data processing and ML pipeline workflows.' },
+  'Salesforce':                      { abbr: 'SF',  desc: 'Gained exposure through consulting engagements and AI assistant design.' },
+  'MCP':                             { abbr: 'MCP', desc: 'Implemented Model Context Protocol for agent memory and tool integration.' },
+  'OCR':                             { abbr: 'OCR', desc: 'Applied for document parsing and unstructured financial data extraction.' },
+  'AstraDB':                         { abbr: 'DB',  desc: 'Used as a vector database backend for RAG pipeline development.' },
+  'Langgraph':                       { abbr: 'LG',  desc: 'Built stateful multi-agent workflows and orchestration graphs.' },
+  'Langchain':                       { abbr: 'LC',  desc: 'Constructed LLM chains and retrieval pipelines for AI applications.' },
+  'Generative AI':                   { abbr: 'AI',  desc: 'Developed prompt engineering strategies and generative AI applications at IBM.' },
+  'Docker':                          { abbr: 'Dk',  desc: 'Containerised applications for consistent deployment across environments.' },
+  'Postman':                         { abbr: 'PM',  desc: 'Used for API testing and development workflow management.' },
+  'Data Modelling & Visualisation':  { abbr: 'DV',  desc: 'Designed data models and dashboards to surface actionable insights for business teams.' },
+  'Statistical Analysis':            { abbr: 'SA',  desc: 'Applied inferential statistics and hypothesis testing across academic and professional projects.' },
+  'RAG':                             { abbr: 'RAG', desc: 'Built retrieval-augmented generation systems to ground LLM outputs in verified data.' },
+  'Knowledge Graphs':                { abbr: 'KG',  desc: 'Design and build knowledge graphs that integrate, connect and reason over heterogeneous data.' },
+  'Ontologies':                      { abbr: 'ONT', desc: 'Model domains with standards-based ontologies to give AI systems a governed, shared vocabulary.' },
+  'Multi-Agent Systems':             { abbr: 'MAS', desc: 'Orchestrate multi-agent systems that plan, retrieve and act over a governed knowledge substrate.' },
+  'Agent Development':               { abbr: 'AD',  desc: 'Designed and deployed autonomous AI agents for executive reporting and task automation at IBM.' },
+  'Prompt Engineering':              { abbr: 'PE',  desc: 'Developed structured prompts to optimise LLM performance for business contexts.' },
+  'Data Strategy & Governance':      { abbr: 'DG',  desc: 'Contributed to data governance frameworks and strategic data asset planning.' },
+  'Leadership':                      { abbr: 'LD',  desc: 'Founded and led the Data Science Society through 15 events for over 100 members.' },
+  'Teamwork':                        { abbr: 'TW',  desc: 'Collaborated across cross-functional teams in consulting and client-facing roles.' },
+  'Stakeholder Management':          { abbr: 'SM',  desc: 'Delivered demos and executive summaries to senior stakeholders at IBM and clients.' },
+  'Design Thinking':                 { abbr: 'DT',  desc: 'Certified IBM Enterprise Design Thinking Co-Creator and Practitioner.' },
+  'Agile Scrum':                     { abbr: 'AS',  desc: 'Worked in Agile sprints across internship and project delivery contexts.' },
+  'Storytelling':                    { abbr: 'ST',  desc: 'Translated technical outputs into compelling narratives for business and executive audiences.' },
+  'Spanish (Native)':                { abbr: 'ES',  desc: 'Native speaker, used professionally and personally throughout my career.' },
+  'English (Native Bilingual)':      { abbr: 'EN',  desc: 'Fully fluent professional working language across all roles and internships.' },
+  'Italian (B1/B2)':                 { abbr: 'IT',  desc: 'Conversational proficiency with ongoing development.' },
 };
 
 export const translations = {
@@ -19,16 +61,36 @@ export const translations = {
       langLabel: 'My Languages'
     },
     hero: {
-      title: 'Data Scientist | AI & Cloud Solutions',
-      intro: 'Graduating Data Science student with hands-on experience in AI, Cloud and Data Services. Passionate about the application of Digital Twins for Sustainable Development.',
+      title: 'Data Scientist from The University of Sheffield · Digital Technology Services Trainee @ Alvarez & Marsal',
+      intro: 'Graduate Trainee in Alvarez & Marsal\'s Digital Technology Services practice and a First-Class Data Science graduate from The University of Sheffield. I build knowledge graphs, ontologies and multi-agent systems that turn complex data into clear, commercial decisions, and form the governed foundation for trustworthy AI and digital twins.',
       openToWork: 'Open to Work'
+    },
+    stats: {
+      experience: 'Years of Experience',
+      certifications: 'Certifications',
+      projects: 'Projects Built',
+      languages: 'Languages'
     },
     about: {
       title: 'About Me',
-      text: "I'm a final-year Data Science undergraduate at The University of Sheffield with a completed internship at IBM. As a bilingual, analytical and creative problem solver, I have years of experience delivering data-driven solutions. I'm passionate about digital transformation through AI/MLOps and sustainable solutions, seeking opportunities to drive change and deliver value through strategic and client-facing roles."
+      text: "I'm a Graduate Trainee in Alvarez & Marsal's Digital Technology Services practice and a First-Class Data Science graduate from The University of Sheffield, with prior experience at IBM. As a bilingual, analytical and creative problem solver, I have years of experience delivering data-driven solutions. My current focus is building knowledge graphs, ontologies and multi-agent systems as a governed foundation for trustworthy AI, delivering value through strategic and client-facing work.",
+      hoverLabel: 'My philosophy',
+      philosophy: 'I turn messy data into clear, decisive action.'
     },
     experience: {
       title: 'Professional Experience',
+      am: {
+        roles: [
+          {
+            date: 'July 2026 – Present',
+            title: 'Graduate Trainee, Digital Technology Services - Alvarez & Marsal',
+            location: 'London, UK',
+            items: [
+              'Graduate trainee in the Digital Technology Services practice, supporting the delivery of AI, data and cloud solutions for clients through complex transformation and value-creation engagements.'
+            ]
+          }
+        ]
+      },
       ibm: {
         roles: [
           {
@@ -183,7 +245,7 @@ export const translations = {
       degree: 'BSc Data Science',
       university: 'The University of Sheffield',
       period: 'September 2023 – June 2026',
-      grade: 'Expected: First-Class Honours (1st)',
+      grade: 'First-Class Honours (1st)',
       coursework: 'Relevant Coursework:',
       courses: 'Inferential Statistics, Building AI Applications, Database Modelling, AI Ethics, Machine Learning. Extracurriculars: Sheffield University Rowing Club, Data Science Society (Founder), Sheffield Technology Group (Co-Founder), Siemens DIZ Advisor, Italian Society, Wine Society (Treasurer)'
     },
@@ -243,13 +305,14 @@ export const translations = {
     // --- UPDATED SKILLS SECTION ---
     skills: {
       title: 'Skills & Technologies',
+      filterAll: 'All',
       programmingTools: {
         title: 'Tools & Platforms',
         items: ['Python', 'R Programming', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Watsonx Platform', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'Salesforce', 'MCP', 'OCR', 'AstraDB', 'Langgraph', 'Langchain', 'Generative AI', 'Docker', 'Postman']
       },
       cloudAI: {
         title: 'Core Competencies',
-        items: ['Data Modelling & Visualisation', 'Statistical Analysis', 'RAG', 'Agent Development', 'Prompt Engineering', 'Data Strategy & Governance', 'Leadership', 'Teamwork', 'Stakeholder Management', 'Design Thinking', 'Agile Scrum', 'Storytelling']
+        items: ['Knowledge Graphs', 'Ontologies', 'Multi-Agent Systems', 'Data Modelling & Visualisation', 'Statistical Analysis', 'RAG', 'Agent Development', 'Prompt Engineering', 'Data Strategy & Governance', 'Leadership', 'Teamwork', 'Stakeholder Management', 'Design Thinking', 'Agile Scrum', 'Storytelling']
       },
       coreCompetencies: {
         title: 'Languages',
@@ -312,16 +375,36 @@ export const translations = {
       langLabel: 'Mis Idiomas'
     },
     hero: {
-      title: 'Científico de Datos | AI & Cloud Solutions',
-      intro: 'Estudiante de Ciencia de Datos próximo a graduarse con experiencia práctica en IA, Nube y Servicios de Datos. Apasionado por la aplicación de Gemelos Digitales para el desarrollo sostenible.',
+      title: 'Científico de Datos de la Universidad de Sheffield · Digital Technology Services Trainee @ Alvarez & Marsal',
+      intro: 'Graduate Trainee en la práctica de Digital Technology Services de Alvarez & Marsal y graduado con Matrícula de Honor en Ciencia de Datos por la Universidad de Sheffield. Construyo grafos de conocimiento, ontologías y sistemas multiagente que convierten datos complejos en decisiones claras y comerciales, y forman la base gobernada para una IA y gemelos digitales confiables.',
       openToWork: 'Abierto a Oportunidades'
+    },
+    stats: {
+      experience: 'Años de Experiencia',
+      certifications: 'Certificaciones',
+      projects: 'Proyectos',
+      languages: 'Idiomas'
     },
     about: {
       title: 'Sobre Mí',
-      text: 'Soy un estudiante de último año de Ciencia de Datos en la Universidad de Sheffield con una pasantía completada en IBM. Como solucionador de problemas bilingüe, analítico y creativo, tengo años de experiencia entregando soluciones basadas en datos. Me apasiona la transformación digital a través de IA/MLOps y soluciones basadas en activos, buscando oportunidades para impulsar el cambio y entregar valor a través de roles estratégicos y orientados al cliente.'
+      text: 'Soy Graduate Trainee en la práctica de Digital Technology Services de Alvarez & Marsal y graduado con Matrícula de Honor en Ciencia de Datos por la Universidad de Sheffield, con experiencia previa en IBM. Como solucionador de problemas bilingüe, analítico y creativo, tengo años de experiencia entregando soluciones basadas en datos. Mi enfoque actual es construir grafos de conocimiento, ontologías y sistemas multiagente como base gobernada para una IA confiable, entregando valor a través de roles estratégicos y orientados al cliente.',
+      hoverLabel: 'Mi enfoque',
+      philosophy: 'Convierto datos complejos en decisiones claras y estratégicas.'
     },
     experience: {
       title: 'Experiencia Profesional',
+      am: {
+        roles: [
+          {
+            date: 'Julio 2026 – Presente',
+            title: 'Graduate Trainee, Digital Technology Services - Alvarez & Marsal',
+            location: 'Londres, Reino Unido',
+            items: [
+              'Graduate trainee en la práctica de Digital Technology Services, apoyando la entrega de soluciones de IA, datos y nube para clientes en transformaciones complejas y proyectos de creación de valor.'
+            ]
+          }
+        ]
+      },
       ibm: {
         roles: [
           {
@@ -476,7 +559,7 @@ export const translations = {
       degree: 'Grado en Ciencia de Datos',
       university: 'La Universidad de Sheffield',
       period: 'Septiembre 2023 – Junio 2026',
-      grade: 'Previsto: Matrícula de Honor (1st)',
+      grade: 'Matrícula de Honor (1st)',
       coursework: 'Cursos Relevantes:',
       courses: 'Estadística Inferencial, Aplicaciones de IA, Modelado de Bases de Datos, Ética en IA, Machine Learning. Actividades: Club de Remo, Data Science Society (Fundador), Sheffield Technology Group (Cofundador), Asesor Siemens DIZ, Italian Society, Wine Society (Tesorero)'
     },
@@ -536,13 +619,14 @@ export const translations = {
     // --- UPDATED SKILLS SECTION (ES) ---
     skills: {
       title: 'Habilidades y Tecnologías',
+      filterAll: 'Todos',
       programmingTools: {
         title: 'Herramientas y Plataformas',
         items: ['Python', 'Programación en R', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Watsonx Platform', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'Salesforce', 'MCP', 'OCR', 'AstraDB', 'Langgraph', 'Langchain', 'IA Generativa', 'Docker', 'Postman']
       },
       cloudAI: {
         title: 'Competencias Principales',
-        items: ['Modelado y Visualización de Datos', 'Análisis Estadístico', 'RAG', 'Desarrollo de Agentes', 'Ingeniería de Prompts', 'Estrategia y Gobernanza de Datos', 'Liderazgo', 'Trabajo en Equipo', 'Gestión de Interesados', 'Design Thinking', 'Agile Scrum', 'Storytelling']
+        items: ['Knowledge Graphs', 'Ontologies', 'Multi-Agent Systems', 'Modelado y Visualización de Datos', 'Análisis Estadístico', 'RAG', 'Desarrollo de Agentes', 'Ingeniería de Prompts', 'Estrategia y Gobernanza de Datos', 'Liderazgo', 'Trabajo en Equipo', 'Gestión de Interesados', 'Design Thinking', 'Agile Scrum', 'Storytelling']
       },
       coreCompetencies: {
         title: 'Idiomas',
@@ -605,16 +689,36 @@ export const translations = {
       langLabel: 'Le Mie Lingue'
     },
     hero: {
-      title: 'Data Scientist | AI & Cloud Solutions',
-      intro: 'Studente di Data Science in procinto di laurearsi con esperienza pratica in AI, Cloud e Servizi Dati. Appassionato dell\'applicazione dei gemelli digitali per lo sviluppo sostenibile.',
+      title: 'Data Scientist dall\'Università di Sheffield · Digital Technology Services Trainee @ Alvarez & Marsal',
+      intro: 'Graduate Trainee nella practice Digital Technology Services di Alvarez & Marsal e laureato con lode in Data Science all\'Università di Sheffield. Costruisco knowledge graph, ontologie e sistemi multi-agente che trasformano dati complessi in decisioni chiare e commerciali e costituiscono la base governata per AI e digital twin affidabili.',
       openToWork: 'Disponibile per Opportunità'
+    },
+    stats: {
+      experience: 'Anni di Esperienza',
+      certifications: 'Certificazioni',
+      projects: 'Progetti',
+      languages: 'Lingue'
     },
     about: {
       title: 'Chi Sono',
-      text: 'Sono uno studente dell\'ultimo anno di Data Science all\'Università di Sheffield con uno stage completato presso IBM. Come risolutore di problemi bilingue, analitico e creativo, ho anni di esperienza nel fornire soluzioni basate sui dati. Mi appassiono alla trasformazione digitale attraverso AI/MLOps e soluzioni basate su asset, cercando opportunità per guidare il cambiamento e fornire valore attraverso ruoli strategici e orientati al cliente.'
+      text: 'Sono un Graduate Trainee nella practice Digital Technology Services di Alvarez & Marsal e laureato con lode in Data Science all\'Università di Sheffield, con precedente esperienza in IBM. Come risolutore di problemi bilingue, analitico e creativo, ho anni di esperienza nel fornire soluzioni basate sui dati. Il mio focus attuale è costruire knowledge graph, ontologie e sistemi multi-agente come base governata per un\'IA affidabile, offrendo valore attraverso ruoli strategici e orientati al cliente.',
+      hoverLabel: 'Il mio approccio',
+      philosophy: 'Trasformo dati complessi in decisioni chiare e strategiche.'
     },
     experience: {
       title: 'Esperienza Professionale',
+      am: {
+        roles: [
+          {
+            date: 'Luglio 2026 – Presente',
+            title: 'Graduate Trainee, Digital Technology Services - Alvarez & Marsal',
+            location: 'Londra, Regno Unito',
+            items: [
+              'Graduate trainee nella practice Digital Technology Services, a supporto della consegna di soluzioni AI, dati e cloud per i clienti in trasformazioni complesse e progetti di creazione di valore.'
+            ]
+          }
+        ]
+      },
       ibm: {
         roles: [
           {
@@ -769,7 +873,7 @@ export const translations = {
       degree: 'Laurea in Data Science',
       university: 'Università di Sheffield',
       period: 'Settembre 2023 – Giugno 2026',
-      grade: 'Previsto: Lode di Prima Classe (1st)',
+      grade: 'Lode di Prima Classe (1st)',
       coursework: 'Corsi Rilevanti:',
       courses: 'Statistica Inferenziale, Applicazioni AI, Modellazione Database, Etica AI, Machine Learning. Attività: Club di Canottaggio, Data Science Society (Fondatore), Sheffield Technology Group (Cofondatore), Consulente Siemens DIZ, Italian Society, Wine Society (Tesoriere)'
     },
@@ -829,13 +933,14 @@ export const translations = {
     // --- UPDATED SKILLS SECTION (IT) ---
     skills: {
       title: 'Competenze e Tecnologie',
+      filterAll: 'Tutte',
       programmingTools: {
         title: 'Strumenti e Piattaforme',
         items: ['Python', 'Programmazione R', 'SQL', 'NoSQL', 'Power BI', 'SPSS Modeler', 'Watsonx Platform', 'IBM Cloud', 'AWS', 'Azure', 'GCP', 'Salesforce', 'MCP', 'OCR', 'AstraDB', 'Langgraph', 'Langchain', 'IA Generativa', 'Docker', 'Postman']
       },
       cloudAI: {
         title: 'Competenze Principali',
-        items: ['Modellazione e Visualizzazione Dati', 'Analisi Statistica', 'RAG', 'Sviluppo Agenti', 'Prompt Engineering', 'Strategia e Governance Dati', 'Leadership', 'Lavoro di Squadra', 'Gestione Stakeholder', 'Design Thinking', 'Agile Scrum', 'Storytelling']
+        items: ['Knowledge Graphs', 'Ontologies', 'Multi-Agent Systems', 'Modellazione e Visualizzazione Dati', 'Analisi Statistica', 'RAG', 'Sviluppo Agenti', 'Prompt Engineering', 'Strategia e Governance Dati', 'Leadership', 'Lavoro di Squadra', 'Gestione Stakeholder', 'Design Thinking', 'Agile Scrum', 'Storytelling']
       },
       coreCompetencies: {
         title: 'Lingue',

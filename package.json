@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://joaquinvillar.github.io/",
   "dependencies": {
+    "framer-motion": "^12.39.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
